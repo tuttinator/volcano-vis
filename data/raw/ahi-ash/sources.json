@@ -1,0 +1,98 @@
+[
+  {
+    "time": "2026-09-05T04:00:00Z",
+    "band": "B11",
+    "url": "https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2026/09/05/0400/HS_H09_20260905_0400_B11_FLDK_R20_S0610.DAT.bz2",
+    "path": "data/raw/ahi-ash/HS_H09_20260905_0400_B11_FLDK_R20_S0610.DAT.bz2",
+    "sha256": "34de6c0d762d85b11b36f52e84353df422f3fc1b41beed6237ec2e864d0a4f35",
+    "bytes": 2977360
+  },
+  {
+    "time": "2026-09-05T04:00:00Z",
+    "band": "B13",
+    "url": "https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2026/09/05/0400/HS_H09_20260905_0400_B13_FLDK_R20_S0610.DAT.bz2",
+    "path": "data/raw/ahi-ash/HS_H09_20260905_0400_B13_FLDK_R20_S0610.DAT.bz2",
+    "sha256": "02cb89a2d007f2f2a79d4fcbaa6787235628b3bb60b3fd568c39c7ccede0068a",
+    "bytes": 2985078
+  },
+  {
+    "time": "2026-09-05T04:00:00Z",
+    "band": "B14",
+    "url": "https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2026/09/05/0400/HS_H09_20260905_0400_B14_FLDK_R20_S0610.DAT.bz2",
+    "path": "data/raw/ahi-ash/HS_H09_20260905_0400_B14_FLDK_R20_S0610.DAT.bz2",
+    "sha256": "158b1e8498c4836c23de2a819854085e7b113c93c7aa9a57e5e664b5e4fb2d61",
+    "bytes": 2960914
+  },
+  {
+    "time": "2026-09-05T04:00:00Z",
+    "band": "B15",
+    "url": "https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2026/09/05/0400/HS_H09_20260905_0400_B15_FLDK_R20_S0610.DAT.bz2",
+    "path": "data/raw/ahi-ash/HS_H09_20260905_0400_B15_FLDK_R20_S0610.DAT.bz2",
+    "sha256": "24d4dce743c651900256ba0157eec8e6a27f1a26db94e9f98df5770741053274",
+    "bytes": 2883591
+  },
+  {
+    "time": "2026-09-05T04:10:00Z",
+    "band": "B11",
+    "url": "https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2026/09/05/0410/HS_H09_20260905_0410_B11_FLDK_R20_S0610.DAT.bz2",
+    "path": "data/raw/ahi-ash/HS_H09_20260905_0410_B11_FLDK_R20_S0610.DAT.bz2",
+    "sha256": "e4d64c0188af6126f270a7922725c7c0fbcfc130ee5736d7ca393c49c5eebc7c",
+    "bytes": 2976952
+  },
+  {
+    "time": "2026-09-05T04:10:00Z",
+    "band": "B13",
+    "url": "https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2026/09/05/0410/HS_H09_20260905_0410_B13_FLDK_R20_S0610.DAT.bz2",
+    "path": "data/raw/ahi-ash/HS_H09_20260905_0410_B13_FLDK_R20_S0610.DAT.bz2",
+    "sha256": "635b06d0ff4197d61d9b757146ff04ed89a2da09fecc97e3cb2334ad641e0b98",
+    "bytes": 2985245
+  },
+  {
+    "time": "2026-09-05T04:10:00Z",
+    "band": "B14",
+    "url": "https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2026/09/05/0410/HS_H09_20260905_0410_B14_FLDK_R20_S0610.DAT.bz2",
+    "path": "data/raw/ahi-ash/HS_H09_20260905_0410_B14_FLDK_R20_S0610.DAT.bz2",
+    "sha256": "bfbe84944321ef7c0b10d564c8ff6f99e7c2e987cc75a52a3edd7e709a5750eb",
+    "bytes": 2960271
+  },
+  {
+    "time": "2026-09-05T04:10:00Z",
+    "band": "B15",
+    "url": "https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2026/09/05/0410/HS_H09_20260905_0410_B15_FLDK_R20_S0610.DAT.bz2",
+    "path": "data/raw/ahi-ash/HS_H09_20260905_0410_B15_FLDK_R20_S0610.DAT.bz2",
+    "sha256": "0488731123702ba41db987e707f10a9d00cc48501e6c063825cfbbd5c83da5a1",
+    "bytes": 2883476
+  },
+  {
+    "time": "2026-09-05T04:20:00Z",
+    "band": "B11",
+    "url": "https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2026/09/05/0420/HS_H09_20260905_0420_B11_FLDK_R20_S0610.DAT.bz2",
+    "path": "data/raw/ahi-ash/HS_H09_20260905_0420_B11_FLDK_R20_S0610.DAT.bz2",
+    "sha256": "efdfde25f3a64094ed62845110b3d6310e08deee6b15b1c37058e08283775561",
+    "bytes": 2976080
+  },
+  {
+    "time": "2026-09-05T04:20:00Z",
+    "band": "B13",
+    "url": "https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2026/09/05/0420/HS_H09_20260905_0420_B13_FLDK_R20_S0610.DAT.bz2",
+    "path": "data/raw/ahi-ash/HS_H09_20260905_0420_B13_FLDK_R20_S0610.DAT.bz2",
+    "sha256": "5e019025b8cf9887aa3be4ed52c2d7b0464369b885b7a37056fdffe1e0fefea5",
+    "bytes": 2983721
+  },
+  {
+    "time": "2026-09-05T04:20:00Z",
+    "band": "B14",
+    "url": "https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2026/09/05/0420/HS_H09_20260905_0420_B14_FLDK_R20_S0610.DAT.bz2",
+    "path": "data/raw/ahi-ash/HS_H09_20260905_0420_B14_FLDK_R20_S0610.DAT.bz2",
+    "sha256": "8198c6085a065b90ca86e405a53bcc763d30f14a408b4b95355687c306276f55",
+    "bytes": 2960602
+  },
+  {
+    "time": "2026-09-05T04:20:00Z",
+    "band": "B15",
+    "url": "https://noaa-himawari9.s3.amazonaws.com/AHI-L1b-FLDK/2026/09/05/0420/HS_H09_20260905_0420_B15_FLDK_R20_S0610.DAT.bz2",
+    "path": "data/raw/ahi-ash/HS_H09_20260905_0420_B15_FLDK_R20_S0610.DAT.bz2",
+    "sha256": "ccd1ed5ad55a58d3e36bc49edb01cea3ed0373649d14a132cd60a887292a59c9",
+    "bytes": 2882658
+  }
+]

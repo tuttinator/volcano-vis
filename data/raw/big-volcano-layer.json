@@ -1,0 +1,268 @@
+{
+ "currentVersion": 10.81,
+ "id": 11,
+ "name": "Tipe Gunung Api",
+ "type": "Feature Layer",
+ "description": "",
+ "geometryType": "esriGeometryPoint",
+ "sourceSpatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "copyrightText": "",
+ "parentLayer": {
+  "id": 10,
+  "name": "zoom 5 (Skala 1:144,448)"
+ },
+ "subLayers": [],
+ "minScale": 0,
+ "maxScale": 0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "uniqueValue",
+   "field1": "TIPE",
+   "field2": null,
+   "field3": null,
+   "defaultSymbol": null,
+   "defaultLabel": null,
+   "uniqueValueInfos": [
+    {
+     "symbol": {
+      "type": "esriPMS",
+      "url": "c3d5836cf492c1479d46f2c7d99cfbd4",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAACoAAAAwCAYAAABnjuimAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAvxJREFUWIXt111IU2EYwPH/e5KyIRIm5oWFoEUUxBxBtCArCsMKsroooi8hUCsqgpJdJCgUBkIiWRSVEmEXhZXaN5blB4W5YWgQZrbC1GjUiKZe7OkmpTJz6rtGdf5X47znPOfHu52xhfGXFBZqQKCZUN2ZUN2ZUN2ZUN2ZUN2ZUN2ZUN2ZUN2ZUN0FFSoiVsA5zPJ6oFIp1R/IrGDvqNPt7CbPdv6Hg1mX05i3euaVsPAJKtBBQYOKyCtgCBKgeEM5ZyQbEZkYkh0VkY0ikgL0A/GO+JO/PT9QJPyPD5OIvANiGy89p/VOB4nJcbx//QkAS9Qkjr7MxDIlfMzzde5o7IGphXg9PgBqS5oHF1IOLMAyJdwDJAAopT6OdrhOqNfr8UVaoiZR+GE/bmc3F9JvkpgcR6rDDlAwFuBAOqGRW06vpLrgKTeO1JPqsH92NG27rpSaLSIPDcM4Mp7hOqE7F++07q3KqZvTXNXem+qwtxmGsVnXcC1QEckATgLkd+6idMcNC2AVEQEylVKnxnsPXdCFNadcXMy6PXistqSZzcUpJGdYFwKhh4qIDVjX/rhzyFr7406WZCatE5FCpVTTeO6jA7rpjbM7oqWibchaS0Ub7qauiOlJ0zYBoYOKyFog40lZ6+D35/d5PT6elLUywxabISJ1SqmrfxQqIvZvL3Oc5S8iaopcw55bU+QiwR4XkZQ2K0dEegCUUvVBh4rIciAf4GXdW2tlbi29fcP/tujt66cyt5bIGIs1YVFc0bcZh5RS94IKDVUBQ0UkCsgC9rbe7YgGKD/4ALerZ8Rr3a4eLu2+R9qxJTaAOSviy0SkEChWSnm0Qf1+fymw8ovHF3P/RBPVxxsBfvkADVeHq4uzG68BsGzf/Oilu2x5lqjJe/x+/y3DMLZpgSqltp7bXkVLRduocD83cO3Vw4+oPt7I3DWJMeklq7YCeqAADaXPxgz8VV6Pj4bSZ6SXrAro/H/vYToj2cF0jFign9GA/9YGq3/vrQ91fw30KzLLHN5Kn/hAAAAAAElFTkSuQmCC",
+      "contentType": "image/png",
+      "width": 31,
+      "height": 36,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0
+     },
+     "value": "Bawah Laut Tipe A",
+     "label": "Bawah Laut Tipe A",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriPMS",
+      "url": "4473dc812ba926473f865ea8df5da99b",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAACoAAAAwCAYAAABnjuimAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAq1JREFUWIXtl01IVFEYhp/vUGo5KkbFkJugjbRpaBFZqyAoaBMFkQSFQWVGuJJ2CRWBRIsIMoOKVkEgRBQklEFQoYt+3BbUrqFgNEdrmqHzttB+deo2nmGo7rO6937nvOfh3Ptd7p3HX8K8SgtEJRYNTSwamlg0NLFoaGLR0MSioYlFQxOLhiYWDU1ZRSWlgCdFytuBm2aWj5JV7h19opE8WvP2h4t2bRFsrul31c6iBpVNVNJLYIYkgHZkcLkmJFVVZEcl7ZS0CcgDy31z+pfjo0rC/9hMkl4DSfV/gME8Wl8Frz5NFZOGPUtiDa7k/JA7mvTLX0PaT51dmvxWOVSHNbgMsALAzMb+NDyk6DhpX0/ScK+WoZE86hyDlmpcVx3A6VIEvxBStJ6+RujN4k9lcV11EwwuuWFmzZLuO+dOziU8pOg+t2dhpz8xvpK7H3N01b1wzu0KFR5EVFI70AvgnifxHWMLgZQkAQfN7Pxc1wgl2qLLk9Dx7us1f2kSzjVgbbUtQOVFJa0GtmmoMLM4VMD22jZJZ8zs8VzWCSHayrNCgoHczOJADj3NJ1g1vxWonKikrUC77899e39+T9qj/hwuVdUu6YGZXS91rZJEJa2bPuzWrQ8JLk4UH3xxAq2dn7AtC7olvQEws4dlF5W0EegB0PDHlHqykFHxCRmhniwscSlbU312OuOImd0pq2iliCwqaRHQAXTqXm4xgI6Nw/As3f4zwwV05B0crV8NYBtqrko6A5wzs0wwUe/9FWCzRv1SXZiA3ukPjtkaqBiPCqhtFAAdrF1s+xPHrdEd9t7fds7tCSJqZrv9gVEYKNLdUfkytzuLeifRppqlrq9xNxBGFIAr70vVm520n8rsa4w0/N9rJpdrKqfHb4n6jEb+rS0X/96trzR/jehnETIHsDPSw5oAAAAASUVORK5CYII=",
+      "contentType": "image/png",
+      "width": 31,
+      "height": 36,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0
+     },
+     "value": "Bawah Laut Tipe B",
+     "label": "Bawah Laut Tipe B",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriPMS",
+      "url": "641f317064af772c07ba85fddefb155e",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAACoAAAAwCAYAAABnjuimAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAvhJREFUWIXt111IU2EYwPH/e4pM0REhFglRlBAhuiIaJYQXaelFRN0UgSNjYop1scJLiaAPhkIEM+aFrJv0ohERfa1MhL5EWp4hGEVWEKvBDpZl0sWebiwqs5a+a1TnfzXO+57n/Dg7Z7C5/CXNzTQg1Wyo7myo7myo7myo7myo7myo7myo7myo7myo7tIKFREnEJlmeSdwSSn1MZVZ6b6jkXg0ytny8m8ObgsGWVlZeX5OVpZKdVDaoCIyAkxBAlx0uzmUSCAi8zJyR0Vkl4hsAT4CyzqKi3+6P1Uk/I8vk4jEgMWPQiGe9/RQWFbGm1gMgOy8PPaZJvMdjhnP13lHF7cXFfHesgCIdnV9WVjX1MR8h8MCVgAopUZ/d7hO6Nv3luXIzsuj8dkz4tEo1w8coLCsDJfXC9A6E+DndEIdlW1tRAIB7re24vJ63+3p6bmolFolIn2GYRybzXCdUE+J233w3vHjq5/evDnh8nqfGIaxR9dwLVARqQfaAeqGh7nW2JgDOEVEgP1KqTOzvYYu6IbBzk5uHD785Vi0q4vNPh+le/duADIPFZG1wI7YwMCUtdjAAM7a2h0ickop9WA219EB3R03zdyRcHjK2kg4zOvBwdyCkpLdQOagIrIdqB8OhRif/P38unHLYjgUYlFpab2I3FZKXfijUBHZOPmx5fHly7nRYHDavdFgkCUuV25RdXWLiMQBlFJ30g4Vkc3ASYCX/f3Ouz4fE2Nj0+6fGBvjrs9HTn6+s3D9+tOTM5qVUjfSCs1UKUNFZCHQABx80dubD9B35Ahx0/zluXHT5FZzM5taWtYCLC0vPycipwC/Umrqwz1TaDKZDAJbP4yOFjzs6CASCAD88AWarlemySWPB4A1dXX5To/naPaCBU3JZPKqYRhuLVClVM2VhgZGwuHfwn3f53NvnzhBJBBgeUVFQZXfXwPogQIMdXfPGPijxi2Loe5uqvz+lPb/ey/ToUQinY5fluozmvLf2nT17331me6vgX4C+d4byNRlP28AAAAASUVORK5CYII=",
+      "contentType": "image/png",
+      "width": 31,
+      "height": 36,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0
+     },
+     "value": "Tipe A",
+     "label": "Tipe A",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriPMS",
+      "url": "cca6f45810caa0fa5688ac0174d814ab",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAACoAAAAwCAYAAABnjuimAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAvtJREFUWIXt11tIU3EcwPHv/yg5x9IaVlYUlRFdXqZgpAQhBNVDKBWRBEYXy+4vRYOIglDqISK6k2A9daGiIqhBEgSmILUl9JSpCTntsuaac5bt10tJpcup/zWq830a5/8/v/PhnJ3BkvlLSk40INZMqO5MqO5MqO5MqO5MqO5MqO5MqO5MqO5MqO7iChURB+COsrwSuKuU+hTLrHjfUXe4zUPr6eyfDk4svo5tzvIbRnKKinVQ3KAi0gz0QwJ4L69iVrkgIqMSckdFZI2ILAE+AdOaj0777f5YkfA/vkwi4gUyPzZcI/TChXXGIj4HXgGQZLEzfU8TRmr6sOfrvKOZTRWT6O3yAhBwV/UtjF24FyM13QdkASil/EMdrhMa6O3ypiVZ7GQdeE+4zcObm5uwzFiEvcAJcGw4wO/phKZNKKrEX3Mc38Mj2AucwSnb6+8opWaLyCPDMCpGMlwntDQ9d+NuX/XhucEXrrC9wNloGMZaXcO1QEWkDDgLMN3ZQvv1DVbAISICbFVKnRvpNXRB8wL1F+i4vaXvWMBdxYTC86TlluYBiYeKSA6worultt9ad0st6fM3rxCRE0qppyO5jg5ocU+bxxZqdPVbCzW6CL9221ImOYqBxEFFpAgoCzZc6fv9/LHeLi/BhitYJmeXiUiNUurWH4WKSP63jweDz2/bOusro+7trK/EMjXfZptXeFBE3gAopR7HHSoii4GjAN2tjx2+6kN86fFF3f+lx4ev+hBJo8c5Uqfmn/w2Y59S6kFcoYkqZqiI2IFtwO7QywcZAO/uOQl3eAY9N9zh4e2dXWQsO5IDYM1afFlETgBnlFLRH8dQoZFI5BKwNBL6MN5fdxZ/3SmAAV+gqFjvE9qvlgAwZsGOjDELth42rGN3RiKR+4ZhrNMCVUqVtF9bT6jRNSTcr30/9131fvx1p7DOXDI+c3VVCaAHChB4dnHYwIHq7fISeHaRzNVVg2/mX3yZZpVLPB2DFut3NOa/tfHq33v0ie6vgX4FmiUe1s+iO/kAAAAASUVORK5CYII=",
+      "contentType": "image/png",
+      "width": 31,
+      "height": 36,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0
+     },
+     "value": "Tipe B",
+     "label": "Tipe B",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriPMS",
+      "url": "94b102172b5956273d435e8e0b0bbe54",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAACoAAAAwCAYAAABnjuimAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAp5JREFUWIXtl0tIVVEUhr+1fdy6iIRYOAyaSFCIFPQYNBGKRmGTpLJBSCZF2KRBgwaR0MBCigrEQSU6CiUiCqIoqImUUs4KHAaJEhHife2/gdcoro/TdV8u1flGh7P2/tfHfhw4lfwlVJZbICqxaGhi0dDEoqGJRUMTi4YmFg1NLBqaWDQ0sWhoSioqqQkYX6Z8GHhkZukoWaVe0XGvSea177eXCbuPo+WBcwmLGlQyUUlTQIEkQErHSboZJFWXZUUlHZG0H0gDm+f8jhXHR5WE//EySfoMNHiNkuU5TnuBqXy1jvX2FrPaovNDrmjDnG8EpgHIMfRLky7MameBLQBm9vVPw0OKfoPpWqgj6T7iNUlK53Hsotp1A/QWI7hISNHaKvrIMEDaX6fadX9fx9OHZtYo6ZVzrmct4SFFO6rcsXMZ37s1x4t56P7knDsaKjyIqKRO4DZA0o2T8meTQJMkAafN7M5ae4QS3Z3VPTKc//luzg9RxTUqrX03UH5RSc1Aq9dYQc0zhtmJVkl9ZvZuLX1CiLaJDzU5nhXUcjzD632Nsa0NKJ+opENAZ8aPsPj9/J1pshqh2m3vlPTazEaL7VWUqKQ9+cdLOT2uyTK47Ngsg1RoZ02FHbwk6QuAmb0puaikFuAqgNdYU1q9wOwKM2ZJq5cEG5uc7byRz7hgZoVnJaRouYgsKqkO6ALOeb2sB0jpCmJi9blMkNJFElxsBnC2b1hSH3DLzFbajj8T9d7fBQ5IXzdlNECW/nxlqQu0nOxb5nVqoak66qvs5GWzDWe990+ccyeCiJpZe8qfYeETFF2ukIW5WXrIqp8KtWxKuJvtQBhRgBzDxfstyXQ+82ak0f/eZUq6mVJ6rErUMxr5t7ZU/HtbX27+GtEfvIj9V2OPuWMAAAAASUVORK5CYII=",
+      "contentType": "image/png",
+      "width": 31,
+      "height": 36,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0
+     },
+     "value": "Tipe C",
+     "label": "Tipe C",
+     "description": ""
+    }
+   ],
+   "fieldDelimiter": ","
+  },
+  "transparency": 0,
+  "labelingInfo": [
+   {
+    "labelPlacement": "esriServerPointLabelPlacementAboveRight",
+    "where": null,
+    "labelExpression": "[NAMA_OBJEK]",
+    "useCodedValues": true,
+    "symbol": {
+     "type": "esriTS",
+     "color": [
+      0,
+      0,
+      0,
+      255
+     ],
+     "backgroundColor": null,
+     "borderLineColor": null,
+     "borderLineSize": null,
+     "verticalAlignment": "bottom",
+     "horizontalAlignment": "center",
+     "rightToLeft": false,
+     "angle": 0,
+     "xoffset": 0,
+     "yoffset": 0,
+     "kerning": true,
+     "haloColor": null,
+     "haloSize": null,
+     "font": {
+      "family": "Arial",
+      "size": 11,
+      "style": "normal",
+      "weight": "normal",
+      "decoration": "none"
+     }
+    },
+    "minScale": 5000000,
+    "maxScale": 0
+   }
+  ]
+ },
+ "defaultVisibility": true,
+ "extent": {
+  "xmin": 1.060795337990946E7,
+  "ymin": -992609.6019912813,
+  "xmax": 1.450697538790413E7,
+  "ymax": 639974.2680916187,
+  "spatialReference": {
+   "wkid": 102100,
+   "latestWkid": 3857
+  }
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "displayField": "TIPE",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "subtypeField": null,
+ "defaultSubtypeCode": null,
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "Shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "Shape",
+   "domain": null
+  },
+  {
+   "name": "ID",
+   "type": "esriFieldTypeInteger",
+   "alias": "ID",
+   "domain": null
+  },
+  {
+   "name": "TIPE",
+   "type": "esriFieldTypeString",
+   "alias": "TIPE",
+   "length": 30,
+   "domain": null
+  },
+  {
+   "name": "KETINGGIAN",
+   "type": "esriFieldTypeDouble",
+   "alias": "KETINGGIAN",
+   "domain": null
+  },
+  {
+   "name": "ELEVASI",
+   "type": "esriFieldTypeString",
+   "alias": "ELEVASI",
+   "length": 16,
+   "domain": null
+  },
+  {
+   "name": "NAMA_OBJEK",
+   "type": "esriFieldTypeString",
+   "alias": "NAMA_OBJEK",
+   "length": 50,
+   "domain": null
+  }
+ ],
+ "geometryField": {
+  "name": "Shape",
+  "type": "esriFieldTypeGeometry",
+  "alias": "Shape"
+ },
+ "indexes": [
+  {
+   "name": "FDO_OBJECTID",
+   "fields": "OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "FDO_Shape",
+   "fields": "Shape",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  }
+ ],
+ "subtypes": [],
+ "relationships": [],
+ "canModifyLayer": true,
+ "canScaleSymbols": false,
+ "hasLabels": true,
+ "capabilities": "Map,Query,Data",
+ "maxRecordCount": 1000,
+ "supportsStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportedQueryFormats": "JSON, geoJSON",
+ "isDataVersioned": false,
+ "effectiveMinScale": 577790,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "useStandardizedQueries": true,
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": true,
+  "supportsHavingClause": true,
+  "supportsCountDistinct": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsPagination": true,
+  "supportsTrueCurve": true,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": true
+ },
+ "supportsDatumTransformation": true,
+ "supportsCoordinatesQuantization": true,
+ "serviceItemId": "cfba68d9ea0a44c4b6dec8133a64a675"
+}

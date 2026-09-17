@@ -1,0 +1,113 @@
+{
+  "provider": "DGCA / Kementerian Perhubungan",
+  "retrievedAt": "2026-09-12",
+  "unresolved": [
+    "atungbusu"
+  ],
+  "airports": [
+    {
+      "id": "soekarno-hatta",
+      "name": "Soekarno\u2013Hatta",
+      "coordinates": [
+        106.66111111111111,
+        -6.126505555555555
+      ],
+      "sourceCoordinates": "06\u00b0 07' 35.42\" LS 106\u00b0 39' 40\" BT",
+      "sourceUrl": "https://hubud.kemenhub.go.id/bandara/222",
+      "sourcePath": "data/raw/airports/soekarno-hatta.html",
+      "sha256": "6b458798ed5b3a0dfd53a6c52e91f005267321ca4177f9ecc265ed638de5aa17",
+      "markerKind": "airport"
+    },
+    {
+      "id": "halim",
+      "name": "Halim Perdanakusuma",
+      "coordinates": [
+        106.89166666666668,
+        -6.268611111111111
+      ],
+      "sourceCoordinates": "06\u00b0 16' 07\" LS 106\u00b0 53' 30\" BT",
+      "sourceUrl": "https://hubud.kemenhub.go.id/bandara/122",
+      "sourcePath": "data/raw/airports/halim.html",
+      "sha256": "3096758988f6ab0b580083b6ee1837f4665c702676592ff1ca38a55f2be19e9d",
+      "markerKind": "airport"
+    },
+    {
+      "id": "radin-inten",
+      "name": "Radin Inten II",
+      "coordinates": [
+        105.17555555555556,
+        -5.240555555555556
+      ],
+      "sourceCoordinates": "05\u00b0 14' 26\" LS 105\u00b0 10' 32\" BT",
+      "sourceUrl": "https://hubud.kemenhub.go.id/bandara/258",
+      "sourcePath": "data/raw/airports/radin-inten.html",
+      "sha256": "b16bfe4d14844a66e041a9f7ac2fa52d48d4b2fa01c118a6f6bc7e6145d01f16",
+      "markerKind": "airport"
+    },
+    {
+      "id": "budiarto",
+      "name": "Budiarto Curug",
+      "coordinates": [
+        106.56618888888889,
+        -6.290922222222222
+      ],
+      "sourceCoordinates": "06\u00b0 17' 27.32\" LS 106\u00b0 33' 58.28\" BT",
+      "sourceUrl": "https://hubud.kemenhub.go.id/bandara/102",
+      "sourcePath": "data/raw/airports/budiarto.html",
+      "sha256": "86437b93cbb88f4ce1f1325edb8f7f6737ca1d8520169fa47d9620cedfa4da0f",
+      "markerKind": "airport"
+    },
+    {
+      "id": "pondok-cabe",
+      "name": "Pondok Cabe",
+      "coordinates": [
+        106.76472222222222,
+        -6.336111111111111
+      ],
+      "sourceCoordinates": "06\u00b0 20' 10\" LS 106\u00b0 45' 53\" BT",
+      "sourceUrl": "https://hubud.kemenhub.go.id/bandara/482",
+      "sourcePath": "data/raw/airports/pondok-cabe.html",
+      "sha256": "e3b39b082cc28161162fdcc253dabed01eaf1516d177a5a9e552e095c0cfded9",
+      "markerKind": "airport"
+    },
+    {
+      "id": "husein",
+      "name": "Husein Sastranegara",
+      "coordinates": [
+        107.5761111111111,
+        -6.901944444444445
+      ],
+      "sourceCoordinates": "06\u00b0 54' 07\" LS 107\u00b0 34' 34\" BT",
+      "sourceUrl": "https://hubud.kemenhub.go.id/bandara/242",
+      "sourcePath": "data/raw/airports/husein.html",
+      "sha256": "c0064f819747ed43b46d7cdd30ee76196677ca2d8e8c1ae514d8be7f64d3f349",
+      "markerKind": "airport"
+    },
+    {
+      "id": "salakanagara",
+      "name": "Salakanagara Tanjung Lesung",
+      "coordinates": [
+        105.666875,
+        -6.492561111111111
+      ],
+      "sourceCoordinates": "06\u00b0 29' 33.22\" LS 105\u00b0 40' 00.75\" BT",
+      "sourceUrl": "https://hubud.kemenhub.go.id/bandara/304",
+      "sourcePath": "data/raw/airports/salakanagara.html",
+      "sha256": "e5014df370f9986e1d2d0bba457aa83df2a9e51d3fffbabecb3822f0b492e5d4",
+      "markerKind": "airport"
+    },
+    {
+      "id": "muhammad-taufiq-kiemas",
+      "name": "Muhammad Taufiq Kiemas",
+      "coordinates": [
+        103.9363888888889,
+        -5.2110916666666665
+      ],
+      "sourceCoordinates": "05\u00b0 12' 39.93\" LS 103\u00b0 56' 11\" BT",
+      "sourceUrl": "https://hubud.kemenhub.go.id/bandara/273",
+      "sourcePath": "data/raw/airports/muhammad-taufiq-kiemas.html",
+      "sha256": "fe64626c2c3b8b31f0ec8d5ab580a469bf2537805a01437db44f3c8810a2400d",
+      "markerKind": "airport"
+    }
+  ]
+}

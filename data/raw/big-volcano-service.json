@@ -1,0 +1,220 @@
+{
+ "currentVersion": 10.81,
+ "serviceDescription": "<DIV STYLE=\"text-align:Left;\"><P><SPAN>Peta ini dibangun menggunakan data gunung api bawah laut tipe A, bawah laut tipe B, tipe A, tipe B, dan tipe C. <\/SPAN><\/P><P><SPAN /><\/P><P><SPAN>Data diperoleh dari Atlas Nasional Indonesia produksi BIG , data ini diperuntukkan sebagai materi web kartografi pada aplikasi e-atlas nasional produksi tahun 2021.<\/SPAN><\/P><\/DIV>",
+ "mapName": "Layers",
+ "description": "",
+ "copyrightText": "Badan Informasi Geospasial",
+ "supportsDynamicLayers": true,
+ "layers": [
+  {
+   "id": 0,
+   "name": "zoom 0 (full extent)",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    1
+   ],
+   "minScale": 591657528,
+   "maxScale": 9244648,
+   "type": "Group Layer"
+  },
+  {
+   "id": 1,
+   "name": "Tipe Gunung Api",
+   "parentLayerId": 0,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPoint"
+  },
+  {
+   "id": 2,
+   "name": "zoom 1 (Skala 1:4,622,324)",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    3
+   ],
+   "minScale": 9244648,
+   "maxScale": 4622323,
+   "type": "Group Layer"
+  },
+  {
+   "id": 3,
+   "name": "Tipe Gunung Api",
+   "parentLayerId": 2,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPoint"
+  },
+  {
+   "id": 4,
+   "name": "zoom 2 (Skala 1:2,311,162)",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    5
+   ],
+   "minScale": 4622323,
+   "maxScale": 2311161,
+   "type": "Group Layer"
+  },
+  {
+   "id": 5,
+   "name": "Tipe Gunung Api",
+   "parentLayerId": 4,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPoint"
+  },
+  {
+   "id": 6,
+   "name": "zoom 3 (Skala 1:1,155,581)",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    7
+   ],
+   "minScale": 2311161,
+   "maxScale": 1155580,
+   "type": "Group Layer"
+  },
+  {
+   "id": 7,
+   "name": "Tipe Gunung Api",
+   "parentLayerId": 6,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPoint"
+  },
+  {
+   "id": 8,
+   "name": "zoom 4 (Skala 1:577,791)",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    9
+   ],
+   "minScale": 1155580,
+   "maxScale": 577790,
+   "type": "Group Layer"
+  },
+  {
+   "id": 9,
+   "name": "Tipe Gunung Api",
+   "parentLayerId": 8,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPoint"
+  },
+  {
+   "id": 10,
+   "name": "zoom 5 (Skala 1:144,448)",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    11
+   ],
+   "minScale": 577790,
+   "maxScale": 0,
+   "type": "Group Layer"
+  },
+  {
+   "id": 11,
+   "name": "Tipe Gunung Api",
+   "parentLayerId": 10,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPoint"
+  }
+ ],
+ "tables": [],
+ "spatialReference": {
+  "wkid": 102100,
+  "latestWkid": 3857
+ },
+ "singleFusedMapCache": false,
+ "initialExtent": {
+  "xmin": 9664725.151133992,
+  "ymin": -408486.3364987108,
+  "xmax": 1.5450203616679601E7,
+  "ymax": 1107213.393731007,
+  "spatialReference": {
+   "wkid": 102100,
+   "latestWkid": 3857
+  }
+ },
+ "fullExtent": {
+  "xmin": 1.060795337990946E7,
+  "ymin": -992609.6019912813,
+  "xmax": 1.450697538790413E7,
+  "ymax": 639974.2680916187,
+  "spatialReference": {
+   "wkid": 102100,
+   "latestWkid": 3857
+  }
+ },
+ "minScale": 591657528,
+ "maxScale": 0,
+ "units": "esriMeters",
+ "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+ "documentInfo": {
+  "Title": "",
+  "Author": "",
+  "Comments": "GUNUNG API",
+  "Subject": "GUNUNG API",
+  "Category": "",
+  "AntialiasingMode": "None",
+  "TextAntialiasingMode": "Force",
+  "Keywords": "EATLAS"
+ },
+ "capabilities": "Map,Query,Data",
+ "supportedQueryFormats": "JSON, geoJSON",
+ "exportTilesAllowed": false,
+ "referenceScale": 0,
+ "datumTransformations": [
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": true,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  },
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": false,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  }
+ ],
+ "supportsDatumTransformation": true,
+ "maxRecordCount": 1000,
+ "maxImageHeight": 4096,
+ "maxImageWidth": 4096,
+ "supportedExtensions": "",
+ "serviceItemId": "cfba68d9ea0a44c4b6dec8133a64a675"
+}

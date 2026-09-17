@@ -1,0 +1,1539 @@
+{
+  "sourceUrl": "https://magma.esdm.go.id/v1/edukasi/tipe-gunung-api-di-indonesia-a-b-dan-c",
+  "provider": "PVMBG / MAGMA Indonesia",
+  "sourceUpdatedAt": "2021-09-20T12:01:09+07:00",
+  "retrievedAt": "2026-09-12",
+  "inputSha256": "466f24c78ce4f96cad8368bc459b93e8b8f9f3818cb244c0b026031cbc5c89ac",
+  "coverage": "All 127 entries in the source classification table; not an inventory of every extinct volcanic landform or current alert levels.",
+  "definitions": {
+    "A": "Recorded eruption history since 1600.",
+    "B": "Recorded eruption history before 1600.",
+    "C": "No recorded eruption history, but signs of volcanic activity such as solfataras or fumaroles."
+  },
+  "volcanoes": [
+    {
+      "id": "bali-nusa-tenggara-agung",
+      "name": "Agung",
+      "classification": "A",
+      "coordinates": [
+        115.507481726,
+        -8.34397911664
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-ambang",
+      "name": "Ambang",
+      "classification": "A",
+      "coordinates": [
+        124.422015256,
+        0.74896086924
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-anak-krakatau",
+      "name": "Anak Krakatau",
+      "classification": "A",
+      "coordinates": [
+        105.422793494,
+        -6.1028141118
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": "262000"
+    },
+    {
+      "id": "bali-nusa-tenggara-anak-ranakah",
+      "name": "Anak Ranakah",
+      "classification": "A",
+      "coordinates": [
+        120.533080951,
+        -8.6337791232
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-arjuno-welirang",
+      "name": "Arjuno Welirang",
+      "classification": "A",
+      "coordinates": [
+        112.574709438,
+        -7.73356906885
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-awu",
+      "name": "Awu",
+      "classification": "A",
+      "coordinates": [
+        125.454053959,
+        3.6815534576
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-banda-api",
+      "name": "Banda api",
+      "classification": "A",
+      "coordinates": [
+        129.879648538,
+        -4.52305613948
+      ],
+      "region": "Maluku",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-banua-wuhu-bl",
+      "name": "Banua Wuhu (BL)",
+      "classification": "A",
+      "coordinates": [
+        125.670691247,
+        3.04934859187
+      ],
+      "region": "Sulawesi",
+      "submarine": true,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-batu-kolok",
+      "name": "Batu kolok",
+      "classification": "C",
+      "coordinates": [
+        124.764001066,
+        1.16170300563
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-batur",
+      "name": "Batur",
+      "classification": "A",
+      "coordinates": [
+        115.377905099,
+        -8.24040140101
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-batutara",
+      "name": "Batutara",
+      "classification": "A",
+      "coordinates": [
+        123.587491761,
+        -7.78981002007
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-belirang-beriti",
+      "name": "Belirang Beriti",
+      "classification": "B",
+      "coordinates": [
+        102.164461614,
+        -2.82682862652
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-bromo",
+      "name": "Bromo",
+      "classification": "A",
+      "coordinates": [
+        112.952965731,
+        -7.94286107829
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-bukit-daun",
+      "name": "Bukit Daun",
+      "classification": "B",
+      "coordinates": [
+        102.372886868,
+        -3.38335491998
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-burni-geureudong",
+      "name": "Burni Geureudong",
+      "classification": "B",
+      "coordinates": [
+        96.8204602478,
+        4.79325406997
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-burni-telong",
+      "name": "Burni Telong",
+      "classification": "A",
+      "coordinates": [
+        96.8242266875,
+        4.76699474587
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-ciremai",
+      "name": "Ciremai",
+      "classification": "A",
+      "coordinates": [
+        108.407726354,
+        -6.89549040517
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-colo",
+      "name": "Colo",
+      "classification": "A",
+      "coordinates": [
+        121.602491889,
+        -0.17045578507
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-dempo",
+      "name": "Dempo",
+      "classification": "A",
+      "coordinates": [
+        103.121473395,
+        -4.01589423144
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-dieng",
+      "name": "Dieng",
+      "classification": "A",
+      "coordinates": [
+        109.906572462,
+        -7.21834490284
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-dukono",
+      "name": "Dukono",
+      "classification": "A",
+      "coordinates": [
+        127.878016652,
+        1.69867327144
+      ],
+      "region": "Maluku",
+      "submarine": false,
+      "advisoryId": "268010"
+    },
+    {
+      "id": "bali-nusa-tenggara-ebulobo",
+      "name": "Ebulobo",
+      "classification": "A",
+      "coordinates": [
+        121.191324827,
+        -8.81614007774
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-egon",
+      "name": "Egon",
+      "classification": "A",
+      "coordinates": [
+        122.453905109,
+        -8.67836769967
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-emperor-of-china-bl",
+      "name": "Emperor of China (BL)",
+      "classification": "B",
+      "coordinates": [
+        124.540490304,
+        -6.80439524053
+      ],
+      "region": "Maluku",
+      "submarine": true,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-galunggung",
+      "name": "Galunggung",
+      "classification": "A",
+      "coordinates": [
+        108.077490477,
+        -7.25761749787
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-gamalama",
+      "name": "Gamalama",
+      "classification": "A",
+      "coordinates": [
+        127.332358038,
+        0.80968953907
+      ],
+      "region": "Maluku",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-gamkonora",
+      "name": "Gamkonora",
+      "classification": "A",
+      "coordinates": [
+        127.532528547,
+        1.37722274125
+      ],
+      "region": "Maluku",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-gayo-lesten-kembar",
+      "name": "Gayo Lesten/Kembar",
+      "classification": "C",
+      "coordinates": [
+        97.6636904331,
+        3.85710999689
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-gede",
+      "name": "Gede",
+      "classification": "A",
+      "coordinates": [
+        106.982276353,
+        -6.78780520782
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-guntur",
+      "name": "Guntur",
+      "classification": "A",
+      "coordinates": [
+        107.851282538,
+        -7.15559026474
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-helatoba",
+      "name": "Helatoba",
+      "classification": "C",
+      "coordinates": [
+        98.9451742051,
+        2.07452606764
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-hobal-bl",
+      "name": "Hobal (BL)",
+      "classification": "A",
+      "coordinates": [
+        123.639348203,
+        -8.55441771413
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": true,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-ibu",
+      "name": "Ibu",
+      "classification": "A",
+      "coordinates": [
+        127.633670324,
+        1.49240853814
+      ],
+      "region": "Maluku",
+      "submarine": false,
+      "advisoryId": "268030"
+    },
+    {
+      "id": "jawa-ijen",
+      "name": "Ijen",
+      "classification": "A",
+      "coordinates": [
+        114.242573884,
+        -8.05856205262
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-ili-boleng",
+      "name": "Ili boleng",
+      "classification": "A",
+      "coordinates": [
+        123.252370057,
+        -8.34340364512
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-ili-labalekan",
+      "name": "Ili labalekan",
+      "classification": "B",
+      "coordinates": [
+        123.381805498,
+        -8.5419493757
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-ili-lewotolok",
+      "name": "Ili Lewotolok",
+      "classification": "A",
+      "coordinates": [
+        123.508398242,
+        -8.27365858894
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": "264230"
+    },
+    {
+      "id": "bali-nusa-tenggara-ili-werung",
+      "name": "Ili Werung",
+      "classification": "A",
+      "coordinates": [
+        123.573591214,
+        -8.53177212482
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-ilimuda",
+      "name": "Ilimuda",
+      "classification": "B",
+      "coordinates": [
+        122.761436146,
+        -8.4769148572
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-inielika",
+      "name": "Inielika",
+      "classification": "A",
+      "coordinates": [
+        120.976482977,
+        -8.7405906198
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-inierie",
+      "name": "Inierie",
+      "classification": "A",
+      "coordinates": [
+        120.956038077,
+        -8.87822584587
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-iya",
+      "name": "Iya",
+      "classification": "A",
+      "coordinates": [
+        121.638719074,
+        -8.89476772331
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-iyang-argopuro",
+      "name": "Iyang Argopuro",
+      "classification": "B",
+      "coordinates": [
+        113.57303323,
+        -7.96497795687
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-jaboi",
+      "name": "Jaboi",
+      "classification": "C",
+      "coordinates": [
+        95.3240228606,
+        5.80343459575
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-kaba",
+      "name": "Kaba",
+      "classification": "A",
+      "coordinates": [
+        102.626556862,
+        -3.51553828928
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-kaldera-sokoria",
+      "name": "Kaldera Sokoria",
+      "classification": "C",
+      "coordinates": [
+        121.764812039,
+        -8.78346650597
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-karang",
+      "name": "Karang",
+      "classification": "B",
+      "coordinates": [
+        106.04971873,
+        -6.26860623181
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-karangetang",
+      "name": "Karangetang",
+      "classification": "A",
+      "coordinates": [
+        125.406095117,
+        2.77702218568
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-kawah-kamojang",
+      "name": "Kawah Kamojang",
+      "classification": "C",
+      "coordinates": [
+        107.800727307,
+        -7.13797985283
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-kawah-karaha",
+      "name": "Kawah Karaha",
+      "classification": "C",
+      "coordinates": [
+        108.076666975,
+        -7.12444570858
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-kawah-manuk",
+      "name": "Kawah Manuk",
+      "classification": "C",
+      "coordinates": [
+        107.731530729,
+        -7.22757534303
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-kelimutu",
+      "name": "Kelimutu",
+      "classification": "A",
+      "coordinates": [
+        121.814898245,
+        -8.76596982677
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-kelud",
+      "name": "Kelud",
+      "classification": "A",
+      "coordinates": [
+        112.304160308,
+        -7.93758770809
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-kerinci",
+      "name": "Kerinci",
+      "classification": "A",
+      "coordinates": [
+        101.267190986,
+        -1.69600133075
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-kiaraberes-gagak",
+      "name": "Kiaraberes Gagak",
+      "classification": "C",
+      "coordinates": [
+        106.649539132,
+        -6.73019966726
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-kie-besi",
+      "name": "Kie Besi",
+      "classification": "A",
+      "coordinates": [
+        127.398041017,
+        0.32282408388
+      ],
+      "region": "Maluku",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-klabat",
+      "name": "Klabat",
+      "classification": "B",
+      "coordinates": [
+        125.030103771,
+        1.4534087482
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-kunyit",
+      "name": "Kunyit",
+      "classification": "B",
+      "coordinates": [
+        101.482607428,
+        -2.2786452174
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-lahendong",
+      "name": "Lahendong",
+      "classification": "C",
+      "coordinates": [
+        124.829248052,
+        1.27505550384
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-lamongan",
+      "name": "Lamongan",
+      "classification": "A",
+      "coordinates": [
+        113.340462102,
+        -7.98168729768
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-lawu",
+      "name": "Lawu",
+      "classification": "B",
+      "coordinates": [
+        111.190245852,
+        -7.63760694142
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-lereboleng",
+      "name": "Lereboleng",
+      "classification": "A",
+      "coordinates": [
+        122.835774801,
+        -8.36834213189
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-lewotobi-laki-laki",
+      "name": "Lewotobi Laki-laki",
+      "classification": "A",
+      "coordinates": [
+        122.767356017,
+        -8.53809642487
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-lewotobi-perempuan",
+      "name": "Lewotobi Perempuan",
+      "classification": "A",
+      "coordinates": [
+        122.780171645,
+        -8.55199369915
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-lokon",
+      "name": "Lokon",
+      "classification": "A",
+      "coordinates": [
+        124.799217919,
+        1.3638514909
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-lumut-balai",
+      "name": "Lumut Balai",
+      "classification": "B",
+      "coordinates": [
+        103.623192388,
+        -4.22359765749
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-mahawu",
+      "name": "Mahawu",
+      "classification": "A",
+      "coordinates": [
+        124.86265913,
+        1.35276358069
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-manuk",
+      "name": "Manuk",
+      "classification": "B",
+      "coordinates": [
+        130.303877546,
+        -5.54294652983
+      ],
+      "region": "Maluku",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-marapi",
+      "name": "Marapi",
+      "classification": "A",
+      "coordinates": [
+        100.457097834,
+        -0.39106938431
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-marga-bayur-besar",
+      "name": "Marga Bayur/Besar",
+      "classification": "C",
+      "coordinates": [
+        103.685604275,
+        -4.43269007243
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-merapi",
+      "name": "Merapi",
+      "classification": "A",
+      "coordinates": [
+        110.446270867,
+        -7.54130669258
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": "263250"
+    },
+    {
+      "id": "jawa-merbabu",
+      "name": "Merbabu",
+      "classification": "B",
+      "coordinates": [
+        110.438681244,
+        -7.44747624415
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-ndetu-napi",
+      "name": "Ndetu Napi",
+      "classification": "C",
+      "coordinates": [
+        121.808037294,
+        -8.71167340853
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-nieuwerkerk-bl",
+      "name": "Nieuwerkerk (BL)",
+      "classification": "A",
+      "coordinates": [
+        125.242421414,
+        -6.43341659386
+      ],
+      "region": "Maluku",
+      "submarine": true,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-nila",
+      "name": "Nila",
+      "classification": "A",
+      "coordinates": [
+        129.51673556,
+        -6.75094593406
+      ],
+      "region": "Maluku",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-papandayan",
+      "name": "Papandayan",
+      "classification": "A",
+      "coordinates": [
+        107.731637176,
+        -7.31692882707
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-patuha",
+      "name": "Patuha",
+      "classification": "B",
+      "coordinates": [
+        107.402126248,
+        -7.16637656972
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-pematang-bata-suwoh",
+      "name": "Pematang Bata/Suwoh",
+      "classification": "C",
+      "coordinates": [
+        104.26165705,
+        -5.23059185335
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-perbakti",
+      "name": "Perbakti",
+      "classification": "C",
+      "coordinates": [
+        106.6865177,
+        -6.75717683222
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-peut-sague",
+      "name": "Peut Sague",
+      "classification": "A",
+      "coordinates": [
+        96.2888626227,
+        4.90260907364
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-poco-leok",
+      "name": "Poco Leok",
+      "classification": "C",
+      "coordinates": [
+        120.439562,
+        -8.7237
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-pulosari",
+      "name": "Pulosari",
+      "classification": "B",
+      "coordinates": [
+        105.9750272,
+        -6.33953778034
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-pusuk-bukit",
+      "name": "Pusuk Bukit",
+      "classification": "B",
+      "coordinates": [
+        98.6681120661,
+        2.61433296194
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-rajabasa",
+      "name": "Rajabasa",
+      "classification": "B",
+      "coordinates": [
+        105.631589347,
+        -5.78091676175
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-raung",
+      "name": "Raung",
+      "classification": "A",
+      "coordinates": [
+        114.056032942,
+        -8.12016250449
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-riang-kotang",
+      "name": "Riang Kotang",
+      "classification": "C",
+      "coordinates": [
+        122.911492626,
+        -8.28421190433
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-rinjani-barujari",
+      "name": "Rinjani/Barujari",
+      "classification": "A",
+      "coordinates": [
+        116.423158701,
+        -8.41111052321
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-rokatenda",
+      "name": "Rokatenda",
+      "classification": "A",
+      "coordinates": [
+        121.706765325,
+        -8.33308635188
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-ruang",
+      "name": "Ruang",
+      "classification": "A",
+      "coordinates": [
+        125.36703101,
+        2.30390854986
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-salak",
+      "name": "Salak",
+      "classification": "A",
+      "coordinates": [
+        106.713328891,
+        -6.71808392296
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-sangeangapi",
+      "name": "Sangeangapi",
+      "classification": "A",
+      "coordinates": [
+        119.069354081,
+        -8.19782498118
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-sangir-bl",
+      "name": "Sangir (BL)",
+      "classification": "A",
+      "coordinates": [
+        124.599817578,
+        3.61809900354
+      ],
+      "region": "Sulawesi",
+      "submarine": true,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-sarongsong",
+      "name": "Sarongsong",
+      "classification": "C",
+      "coordinates": [
+        124.821565999,
+        1.28396769586
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-sekincau-belirang",
+      "name": "Sekincau Belirang",
+      "classification": "B",
+      "coordinates": [
+        104.345009136,
+        -5.09901333734
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-semeru",
+      "name": "Semeru",
+      "classification": "A",
+      "coordinates": [
+        112.924762701,
+        -8.11284536216
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": "263300"
+    },
+    {
+      "id": "sulawesi-sempu",
+      "name": "Sempu",
+      "classification": "B",
+      "coordinates": [
+        124.75145963,
+        1.13541978818
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-serua",
+      "name": "Serua",
+      "classification": "A",
+      "coordinates": [
+        130.016588626,
+        -6.31267860732
+      ],
+      "region": "Maluku",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-seulawah-agam",
+      "name": "Seulawah Agam",
+      "classification": "A",
+      "coordinates": [
+        95.6566635751,
+        5.44702799423
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-sibayak",
+      "name": "Sibayak",
+      "classification": "B",
+      "coordinates": [
+        98.5045067284,
+        3.2396582645
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-sibual-buali",
+      "name": "Sibual-buali",
+      "classification": "B",
+      "coordinates": [
+        99.2559152029,
+        1.55411558773
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-sinabung",
+      "name": "Sinabung",
+      "classification": "A",
+      "coordinates": [
+        98.3910407935,
+        3.16990478798
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-sirung",
+      "name": "Sirung",
+      "classification": "A",
+      "coordinates": [
+        124.131089163,
+        -8.49808398629
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-slamet",
+      "name": "Slamet",
+      "classification": "A",
+      "coordinates": [
+        109.214924225,
+        -7.24179442577
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-soputan",
+      "name": "Soputan",
+      "classification": "A",
+      "coordinates": [
+        124.737789969,
+        1.11450902998
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-sorik-marapi",
+      "name": "Sorik Marapi",
+      "classification": "A",
+      "coordinates": [
+        99.5363263202,
+        0.68578083721
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-sumbing",
+      "name": "Sumbing",
+      "classification": "A",
+      "coordinates": [
+        110.073623471,
+        -7.38332572046
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-sumbing",
+      "name": "Sumbing",
+      "classification": "B",
+      "coordinates": [
+        101.725321823,
+        -2.41153128229
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-sundoro",
+      "name": "Sundoro",
+      "classification": "A",
+      "coordinates": [
+        109.996989889,
+        -7.30152746249
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-talaga-bodas",
+      "name": "Talaga Bodas",
+      "classification": "B",
+      "coordinates": [
+        108.0652008,
+        -7.21096284884
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-talamau",
+      "name": "Talamau",
+      "classification": "B",
+      "coordinates": [
+        99.9802020646,
+        0.07393294702
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-talang",
+      "name": "Talang",
+      "classification": "A",
+      "coordinates": [
+        100.680455925,
+        -0.98009431698
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-tambora",
+      "name": "Tambora",
+      "classification": "A",
+      "coordinates": [
+        117.993204529,
+        -8.24697274644
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-tampusu",
+      "name": "Tampusu",
+      "classification": "C",
+      "coordinates": [
+        124.852163778,
+        1.26587859097
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-tandikat",
+      "name": "Tandikat",
+      "classification": "A",
+      "coordinates": [
+        100.319300433,
+        -0.43149002318
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-tangkoko",
+      "name": "Tangkoko",
+      "classification": "A",
+      "coordinates": [
+        125.185356316,
+        1.51479631622
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-tangkuban-parahu",
+      "name": "Tangkuban Parahu",
+      "classification": "A",
+      "coordinates": [
+        107.615229227,
+        -6.75989611757
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sulawesi-tempang",
+      "name": "Tempang",
+      "classification": "C",
+      "coordinates": [
+        124.843594622,
+        1.17154662025
+      ],
+      "region": "Sulawesi",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-teon",
+      "name": "Teon",
+      "classification": "A",
+      "coordinates": [
+        129.143688744,
+        -6.9624256924
+      ],
+      "region": "Maluku",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-todoko",
+      "name": "Todoko",
+      "classification": "B",
+      "coordinates": [
+        127.482255082,
+        1.2627772956
+      ],
+      "region": "Maluku",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "sumatera-ulubelu",
+      "name": "Ulubelu",
+      "classification": "C",
+      "coordinates": [
+        104.590588438,
+        -5.33549623622
+      ],
+      "region": "Sumatera",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-ungaran",
+      "name": "Ungaran",
+      "classification": "B",
+      "coordinates": [
+        110.339357388,
+        -7.20270943084
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "bali-nusa-tenggara-waesano",
+      "name": "Waesano",
+      "classification": "C",
+      "coordinates": [
+        119.988717175,
+        -8.71068517122
+      ],
+      "region": "Bali - Nusa Tenggara",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-wayang-windu",
+      "name": "Wayang Windu",
+      "classification": "B",
+      "coordinates": [
+        107.637711949,
+        -7.20697305508
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-wetar",
+      "name": "Wetar",
+      "classification": "A",
+      "coordinates": [
+        126.658950752,
+        -6.63649643341
+      ],
+      "region": "Maluku",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "jawa-wilis",
+      "name": "Wilis",
+      "classification": "B",
+      "coordinates": [
+        111.632595704,
+        -7.7902626588
+      ],
+      "region": "Jawa",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-wurlali",
+      "name": "Wurlali",
+      "classification": "A",
+      "coordinates": [
+        128.683869352,
+        -7.12114375943
+      ],
+      "region": "Maluku",
+      "submarine": false,
+      "advisoryId": null
+    },
+    {
+      "id": "maluku-yersey-bl",
+      "name": "Yersey (BL)",
+      "classification": "B",
+      "coordinates": [
+        123.669042971,
+        -7.65198644389
+      ],
+      "region": "Maluku",
+      "submarine": true,
+      "advisoryId": null
+    }
+  ]
+}

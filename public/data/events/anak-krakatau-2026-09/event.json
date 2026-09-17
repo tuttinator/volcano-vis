@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "anak-krakatau-2026-09",
+  "volcanoId": "262000",
+  "title": "Anak Krakatau \u00b7 September 2026",
+  "timeZone": "Asia/Jakarta",
+  "start": "2026-09-04T15:00:00Z",
+  "end": "2026-09-08T17:00:00Z",
+  "preferredStart": "2026-09-04T17:00:00Z",
+  "bounds": [
+    101,
+    -9,
+    109,
+    -2
+  ],
+  "assets": {
+    "airports": "/data/airports.json",
+    "infrared": "/data/himawari.json",
+    "ashRgb": "/data/ash-rgb.json",
+    "timeline": "/data/events/anak-krakatau-2026-09/timeline.json",
+    "chronology": "/data/chronology.json",
+    "advisories": "/data/events/anak-krakatau-2026-09/advisories.geojson",
+    "airportStatus": "/data/events/anak-krakatau-2026-09/airport-status.json",
+    "observations": "/data/events/anak-krakatau-2026-09/observations.geojson"
+  },
+  "presentation": {
+    "heading": "Four days, one shared clock.",
+    "description": "Himawari imagery and the documented Krakatau chronology, 4\u20138 September 2026.",
+    "place": "the Sunda Strait",
+    "timeZoneLabel": "WIB",
+    "advisoryCoverageNote": "Earlier morning editions are missing from this archive.",
+    "airportSummary": "BMKG reported NOTAMs issued by 08:30 WIB on 7 September, scheduling closure until 18:00. The next report lists reopening times. Exact closure starts are unavailable, and the two eight-airport lists differ."
+  }
+}

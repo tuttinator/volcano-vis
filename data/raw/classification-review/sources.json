@@ -1,0 +1,15 @@
+{
+  "retrievedAt": "2026-09-12",
+  "sources": [
+    {
+      "path": "data/raw/classification-review/bnpb-2020.html",
+      "url": "https://www.bnpb.go.id/index.php/berita/erupsi-gunung-ili-lewotolok-paling-signifikan-di-tahun-2020",
+      "sha256": "35651cc38e2f18da2bd263b342141b97f0a57509aeb876bd654a18aaa8f89fd7"
+    },
+    {
+      "path": "data/raw/classification-review/big-volcano-types.json",
+      "url": "https://geoservices.big.go.id/gis/rest/services/PTRA/Atlas_Sebaran_GunungApi/MapServer/1/query?where=1%3D1&outFields=*&outSR=4326&f=pjson",
+      "sha256": "a5867b42392b17e189d7700aec649c7b979c23607f9730a1b8c3396f7e7423c7"
+    }
+  ]
+}

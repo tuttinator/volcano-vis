@@ -1,0 +1,70 @@
+import {test,expect} from '@playwright/test';
+import {readFileSync} from 'node:fs';
+const archive=JSON.parse(readFileSync('public/data/himawari.json','utf8'));
+const [first,second,third]=archive.frames;
+test('two-time comparison retains its offset and product in shared links',async({page})=>{
+ await page.goto(`/?view=replay&time=${first.time}`);
+ await page.getByLabel('Show comparison pane').check();
+ await page.getByLabel('Comparison mode').selectOption('times');
+ await page.getByLabel('Second pane offset').selectOption('60');
+ const maps=page.locator('.replay-panes .real-map');
+ const later=archive.frames.find((f:any)=>f.time===first.time+3600000);
+ await expect(maps.nth(1)).toHaveAttribute('data-raster-url',later.url);
+ await page.getByLabel('Event time').fill(String(second.time));
+ await page.reload();
+ await expect(page.getByLabel('Show comparison pane')).toBeChecked();
+ await expect(page.getByLabel('Comparison mode')).toHaveValue('times');
+ await expect(page.getByLabel('Second pane offset')).toHaveValue('60');
+ await expect(maps.nth(1)).toHaveAttribute('data-raster-url',archive.frames.find((f:any)=>f.time===second.time+3600000).url);
+ await page.getByLabel('Second pane offset').selectOption('-60');
+ await expect(maps.nth(1)).not.toHaveAttribute('data-raster-url');
+ await page.getByLabel('Satellite product').selectOption('ash');
+ await page.reload();
+ await expect(page.getByLabel('Satellite product')).toHaveValue('ash');
+});
+test('paired products follow one clock and retain independent gaps',async({page})=>{
+ const ash=JSON.parse(readFileSync('public/data/ash-rgb.json','utf8'));
+ const frame=ash.frames.find((f:any)=>archive.frames.some((ir:any)=>ir.time===f.time));
+ await page.goto(`/?view=replay&time=${frame.time}`);
+ await page.getByLabel('Show comparison pane').check();
+ const maps=page.locator('.replay-panes .real-map');
+ await expect(maps).toHaveCount(2);
+ await expect(maps.nth(0)).toHaveAttribute('data-raster-url',archive.frames.find((f:any)=>f.time===frame.time).url);
+ await expect(maps.nth(1)).toHaveAttribute('data-raster-url',frame.url);
+ await page.getByLabel('Event time').fill(String(Date.parse('2026-09-05T02:40:00Z')));
+ await expect(maps.nth(0)).not.toHaveAttribute('data-raster-url');
+ await expect(page.locator('.replay-panes .replay-frame-status').first()).toContainText('No frame within');
+ await page.setViewportSize({width:390,height:844});
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+ const panes=page.locator('.replay-panes .replay-map');const top=await panes.nth(0).boundingBox(),bottom=await panes.nth(1).boundingBox();
+ expect(bottom!.y).toBeGreaterThanOrEqual(top!.y+top!.height);
+ await page.screenshot({path:'test-results/paired-replay-mobile.png',fullPage:true});
+});
+
+test('superseded raster responses cannot replace the selected scan',async({page})=>{
+ let release!:()=>void;const held=new Promise<void>(resolve=>release=resolve);
+ let delivered!:()=>void;const finished=new Promise<void>(resolve=>delivered=resolve);
+ let started!:()=>void;const requested=new Promise<void>(resolve=>started=resolve);
+ await page.route(`**${first.url}`,async route=>{started();await held;await route.fulfill({contentType:'image/png',body:readFileSync(`public${first.url}`)}).catch(()=>{});delivered();});
+ await page.goto(`/?view=replay&time=${first.time}`);
+ await requested;
+ await page.getByLabel('Event time').fill(String(second.time));
+ await expect(page.locator('.replay-panes .real-map')).toHaveAttribute('data-raster-url',second.url);
+ release();await finished;
+ await expect(page.locator('.replay-panes .real-map')).toHaveAttribute('data-raster-url',second.url);
+ await page.getByLabel('Event time').fill(String(third.time));
+ await expect(page.locator('.replay-panes .real-map')).toHaveAttribute('data-raster-url',third.url);
+ await expect(page.locator('.raster-transport-status')).toHaveCount(0);
+});
+
+test('a failed scan clears the previous image and allows recovery',async({page})=>{
+ await page.route(`**${second.url}`,route=>route.fulfill({status:503,body:'Unavailable'}));
+ await page.goto(`/?view=replay&time=${first.time}`);
+ await expect(page.locator('.replay-panes .real-map')).toHaveAttribute('data-raster-url',first.url);
+ await page.getByLabel('Event time').fill(String(second.time));
+ await expect(page.locator('.raster-transport-status')).toContainText('HTTP 503');
+ await expect(page.locator('.replay-panes .real-map')).not.toHaveAttribute('data-raster-url');
+ await page.getByLabel('Event time').fill(String(third.time));
+ await expect(page.locator('.replay-panes .real-map')).toHaveAttribute('data-raster-url',third.url);
+ await expect(page.locator('.raster-transport-status')).toHaveCount(0);
+});

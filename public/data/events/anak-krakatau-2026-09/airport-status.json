@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "eventId": "anak-krakatau-2026-09",
+  "airports": [
+    {
+      "id": "soekarno-hatta",
+      "name": "Soekarno\u2013Hatta",
+      "closureListed": true,
+      "reopenedAt": "2026-09-07T17:30:00Z",
+      "reopeningSourceId": "bmkg-0908",
+      "notes": "Reopening explicitly given in WIB."
+    },
+    {
+      "id": "halim",
+      "name": "Halim Perdanakusuma",
+      "closureListed": true,
+      "reopenedAt": "2026-09-07T17:40:00Z",
+      "reopeningSourceId": "bmkg-0908",
+      "notes": "Reopening explicitly given in WIB."
+    },
+    {
+      "id": "husein",
+      "name": "Husein Sastranegara",
+      "closureListed": true,
+      "reopenedAt": "2026-09-07T17:42:00Z",
+      "reopeningSourceId": "bmkg-0908",
+      "notes": "Reopening explicitly given in WIB."
+    },
+    {
+      "id": "budiarto",
+      "name": "Budiarto Curug",
+      "closureListed": true,
+      "reopenedAt": "2026-09-07T18:25:00Z",
+      "reopeningSourceId": "bmkg-0908",
+      "notes": "WIB inherited from the surrounding reopening paragraph."
+    },
+    {
+      "id": "pondok-cabe",
+      "name": "Pondok Cabe",
+      "closureListed": true,
+      "reopenedAt": "2026-09-07T18:28:00Z",
+      "reopeningSourceId": "bmkg-0908",
+      "notes": "WIB inherited from the surrounding reopening paragraph."
+    },
+    {
+      "id": "muhammad-taufiq-kiemas",
+      "name": "Muhammad Taufiq Kiemas",
+      "closureListed": true,
+      "reopenedAt": "2026-09-08T02:31:00Z",
+      "reopeningSourceId": "bmkg-0908",
+      "notes": "Name appears as Taufiq on 7 September and Taufik on 8 September; province attribution also differs. Mapped by name, location unresolved. WIB inferred from paragraph context."
+    },
+    {
+      "id": "radin-inten",
+      "name": "Radin Inten II",
+      "closureListed": true,
+      "reopenedAt": "2026-09-08T02:45:00Z",
+      "reopeningSourceId": "bmkg-0908",
+      "notes": "WIB inferred from paragraph context."
+    },
+    {
+      "id": "atungbusu",
+      "name": "Atungbusu (as reported)",
+      "closureListed": true,
+      "reopenedAt": null,
+      "reopeningSourceId": null,
+      "notes": "Listed on 7 September, absent from 8 September reopening list. Identity and reopening unresolved."
+    },
+    {
+      "id": "salakanagara",
+      "name": "Salakanagara Tanjung Lesung",
+      "closureListed": false,
+      "reopenedAt": "2026-09-08T02:50:00Z",
+      "reopeningSourceId": "bmkg-0908",
+      "notes": "Listed as reopened on 8 September, absent from the 7 September closure list. Closure onset unknown. WIB inferred from paragraph context."
+    }
+  ],
+  "closureReport": {
+    "sourceId": "bmkg-0907",
+    "closedBy": "2026-09-07T01:30:00Z",
+    "actualStart": null,
+    "plannedUntil": "2026-09-07T11:00:00Z",
+    "notes": "NOTAMs issued by 08:30 WIB reportedly instructed closure until 18:00 WIB. This is a reported scheduled window, not an exact measured closure duration."
+  },
+  "sources": [
+    {
+      "id": "esdm-0906",
+      "provider": "ESDM / PVMBG",
+      "publishedDate": "2026-09-06",
+      "url": "https://esdm.go.id/en/media-center/news-archives/aktivitas-anak-krakatau-terus-dipantau-pvmbg-pastikan-status-siaga-tetap-berlaku-usai-erupsi-menerus-25-jam",
+      "localPath": "data/raw/reports/esdm-2026-09-06.html",
+      "sha256": "b6ae679225cdf6a08269db9b1d1015c67c24ad6b1ef42154d441263097339d84"
+    },
+    {
+      "id": "bmkg-0907",
+      "provider": "BMKG",
+      "publishedDate": "2026-09-07",
+      "url": "https://www.bmkg.go.id/berita/utama/imbas-sebaran-abu-vulknaik-anak-krakatau-8-bandara-ditutup-sementara-bmkg-minta-waspada-dan-tenang",
+      "localPath": "data/raw/reports/bmkg-2026-09-07.html",
+      "sha256": "a258c55a03e82cbdaadcd08328f889862b316c77f115a672da43bbe3c392f461"
+    },
+    {
+      "id": "bmkg-0908",
+      "provider": "BMKG",
+      "publishedDate": "2026-09-08",
+      "url": "https://www.bmkg.go.id/berita/utama/bmkg-ungkap-abu-vulkanik-negatif-8-bandara-beroperasi-kembali-dan-pemerintah-terus-laksanakan-omc",
+      "localPath": "data/raw/reports/bmkg-2026-09-08.html",
+      "sha256": "2817f1a0385d09e5eec603cdd8f61da0e22fc3ca497c505145b675a1fe5823b2"
+    }
+  ],
+  "limitations": [
+    "Press-report evidence, not original NOTAM products.",
+    "The two reports each name eight airports, but their lists differ; nine distinct names are retained.",
+    "No exact closure start is inferred. The scheduled expiry is not treated as an actual reopening.",
+    "Report publication dates lack precise issue times. This is a retrospective chronology, not an as-known-at-the-time display."
+  ]
+}

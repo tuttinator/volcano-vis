@@ -1,0 +1,28 @@
+{
+  "retrievedAt": "2026-09-12",
+  "sources": [
+    {
+      "id": "bom-copyright",
+      "url": "https://www.bom.gov.au/copyright",
+      "downloadError": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "nasa-data-use",
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+      "path": "data/raw/reuse/nasa-data-use.html",
+      "sha256": "76ac455550983032a793b5767f3ea296d7d19aaa075796194aee5e4808a01819"
+    },
+    {
+      "id": "gibs-acknowledgments",
+      "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal/gibs-api",
+      "path": "data/raw/reuse/gibs-acknowledgments.html",
+      "sha256": "bad237f895de359a573ec32ee42b1f389959d35ee30b1f0634ca3a4ba5372232"
+    },
+    {
+      "id": "eu-legal-notice",
+      "url": "https://commission.europa.eu/legal-notice_en",
+      "path": "data/raw/reuse/eu-legal-notice.html",
+      "sha256": "df5528cea1a28e7574516cf1a6395c2c9175b07cb92a8bce62047c4b77e9a5bc"
+    }
+  ]
+}

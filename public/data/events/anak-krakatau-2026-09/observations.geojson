@@ -1,0 +1,115 @@
+{
+  "type": "FeatureCollection",
+  "eventId": "anak-krakatau-2026-09",
+  "locationNote": "Report events retain null geometry because the retained chronology supplies no observation coordinates. Airport-wide statements are not assigned to individual airport points.",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "continuous-start",
+      "geometry": null,
+      "properties": {
+        "id": "continuous-start",
+        "time": "2026-09-04T16:07:00Z",
+        "precision": "minute",
+        "sourceTime": "4 September 2026, 23:07 WIB",
+        "title": "Continuous eruptive episode begins",
+        "kind": "eruption",
+        "sourceId": "esdm-0906",
+        "notes": "Instrumental start reported retrospectively by PVMBG.",
+        "volcanoId": "262000",
+        "sourceUrl": "https://esdm.go.id/en/media-center/news-archives/aktivitas-anak-krakatau-terus-dipantau-pvmbg-pastikan-status-siaga-tetap-berlaku-usai-erupsi-menerus-25-jam",
+        "sourcePublishedDate": "2026-09-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "continuous-end",
+      "geometry": null,
+      "properties": {
+        "id": "continuous-end",
+        "time": "2026-09-05T17:04:00Z",
+        "precision": "minute",
+        "sourceTime": "6 September 2026, 00:04 WIB",
+        "title": "Continuous episode ends",
+        "kind": "eruption",
+        "sourceId": "esdm-0906",
+        "notes": "End of this continuous episode, not the end of all volcanic activity.",
+        "volcanoId": "262000",
+        "sourceUrl": "https://esdm.go.id/en/media-center/news-archives/aktivitas-anak-krakatau-terus-dipantau-pvmbg-pastikan-status-siaga-tetap-berlaku-usai-erupsi-menerus-25-jam",
+        "sourcePublishedDate": "2026-09-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "strombolian-followup",
+      "geometry": null,
+      "properties": {
+        "id": "strombolian-followup",
+        "time": "2026-09-05T20:53:00Z",
+        "precision": "minute",
+        "sourceTime": "6 September 2026, 03:53 WIB",
+        "title": "Subsequent Strombolian eruption",
+        "kind": "eruption",
+        "sourceId": "esdm-0906",
+        "notes": "Reported duration approximately 30 seconds.",
+        "volcanoId": "262000",
+        "sourceUrl": "https://esdm.go.id/en/media-center/news-archives/aktivitas-anak-krakatau-terus-dipantau-pvmbg-pastikan-status-siaga-tetap-berlaku-usai-erupsi-menerus-25-jam",
+        "sourcePublishedDate": "2026-09-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "positive-tests",
+      "geometry": null,
+      "properties": {
+        "id": "positive-tests",
+        "time": "2026-09-07T00:00:00Z",
+        "precision": "minute",
+        "sourceTime": "7 September 2026, 07:00 WIB",
+        "title": "Positive airport paper tests reported",
+        "kind": "ground-observation",
+        "sourceId": "bmkg-0907",
+        "notes": "Qualitative indication at several airports; not a concentration measurement.",
+        "volcanoId": "262000",
+        "sourceUrl": "https://www.bmkg.go.id/berita/utama/imbas-sebaran-abu-vulknaik-anak-krakatau-8-bandara-ditutup-sementara-bmkg-minta-waspada-dan-tenang",
+        "sourcePublishedDate": "2026-09-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "negative-tests",
+      "geometry": null,
+      "properties": {
+        "id": "negative-tests",
+        "time": "2026-09-07T23:00:00Z",
+        "precision": "minute",
+        "sourceTime": "8 September 2026, 06:00 WIB",
+        "title": "Negative airport paper tests reported",
+        "kind": "ground-observation",
+        "sourceId": "bmkg-0908",
+        "notes": "Report-level statement; exact per-airport test times are not supplied.",
+        "volcanoId": "262000",
+        "sourceUrl": "https://www.bmkg.go.id/berita/utama/bmkg-ungkap-abu-vulkanik-negatif-8-bandara-beroperasi-kembali-dan-pemerintah-terus-laksanakan-omc",
+        "sourcePublishedDate": "2026-09-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "september8-eruption",
+      "geometry": null,
+      "properties": {
+        "id": "september8-eruption",
+        "time": "2026-09-08T00:49:00Z",
+        "precision": "minute",
+        "sourceTime": "8 September 2026, 07:49 WIB",
+        "title": "Another short eruption reported",
+        "kind": "eruption",
+        "sourceId": "bmkg-0908",
+        "notes": "BMKG cites PVMBG; reported duration 19 seconds.",
+        "volcanoId": "262000",
+        "sourceUrl": "https://www.bmkg.go.id/berita/utama/bmkg-ungkap-abu-vulkanik-negatif-8-bandara-beroperasi-kembali-dan-pemerintah-terus-laksanakan-omc",
+        "sourcePublishedDate": "2026-09-08"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1831 @@
+{
+ "displayFieldName": "TIPE",
+ "fieldAliases": {
+  "OBJECTID": "OBJECTID",
+  "ID": "ID",
+  "TIPE": "TIPE",
+  "KETINGGIAN": "KETINGGIAN",
+  "ELEVASI": "ELEVASI",
+  "NAMA_OBJEK": "NAMA_OBJEK"
+ },
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID"
+  },
+  {
+   "name": "ID",
+   "type": "esriFieldTypeInteger",
+   "alias": "ID"
+  },
+  {
+   "name": "TIPE",
+   "type": "esriFieldTypeString",
+   "alias": "TIPE",
+   "length": 30
+  },
+  {
+   "name": "KETINGGIAN",
+   "type": "esriFieldTypeDouble",
+   "alias": "KETINGGIAN"
+  },
+  {
+   "name": "ELEVASI",
+   "type": "esriFieldTypeString",
+   "alias": "ELEVASI",
+   "length": 16
+  },
+  {
+   "name": "NAMA_OBJEK",
+   "type": "esriFieldTypeString",
+   "alias": "NAMA_OBJEK",
+   "length": 50
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "OBJECTID": 1,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1726,
+    "ELEVASI": "1726 Mdpl",
+    "NAMA_OBJEK": "Gn. Seulawah Agam"
+   },
+   "geometry": {
+    "x": 95.732348348000073,
+    "y": 5.4072779060000471
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 2,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2780,
+    "ELEVASI": "2780 Mdpl",
+    "NAMA_OBJEK": "Gn. Peiuet Sague"
+   },
+   "geometry": {
+    "x": 96.050409382000055,
+    "y": 5.085619576000056
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Bur Ni Geureudo"
+   },
+   "geometry": {
+    "x": 96.287424552000061,
+    "y": 5.0167043340000532
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 4,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2624,
+    "ELEVASI": "2624 Mdpl",
+    "NAMA_OBJEK": "Gn. Bur Ni Telong"
+   },
+   "geometry": {
+    "x": 96.290776684000036,
+    "y": 4.8753494160000628
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 5,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": " "
+   },
+   "geometry": {
+    "x": 95.292866544000049,
+    "y": 5.7393642050000722
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 6,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 2624,
+    "ELEVASI": "2624 Mdpl",
+    "NAMA_OBJEK": "Gn. Gayolesten"
+   },
+   "geometry": {
+    "x": 96.821275927000045,
+    "y": 3.8174232410000286
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 7,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 2094,
+    "ELEVASI": "2094 Mdpl",
+    "NAMA_OBJEK": "Gn. Sibayak"
+   },
+   "geometry": {
+    "x": 98.481775048000031,
+    "y": 3.3386050880000653
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 8,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Sinabung"
+   },
+   "geometry": {
+    "x": 98.374780916000077,
+    "y": 3.20577041100006
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 9,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Pusuk Bukit"
+   },
+   "geometry": {
+    "x": 98.762389085000052,
+    "y": 2.4132337680000546
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 10,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Helatoba"
+   },
+   "geometry": {
+    "x": 99.107116228000052,
+    "y": 2.1672603380000623
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 11,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Bual Buali"
+   },
+   "geometry": {
+    "x": 99.505060616000037,
+    "y": 1.5607756170000471
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 12,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2145,
+    "ELEVASI": "2145 Mdpl",
+    "NAMA_OBJEK": "Gn. Sorik Marap"
+   },
+   "geometry": {
+    "x": 99.737345696000034,
+    "y": 0.58065089700005501
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 13,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Talamau"
+   },
+   "geometry": {
+    "x": 100.47917776100007,
+    "y": -0.079051068999945073
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 14,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2891,
+    "ELEVASI": "2891 Mdpl",
+    "NAMA_OBJEK": "Gn. Marapi"
+   },
+   "geometry": {
+    "x": 100.54357068900003,
+    "y": -0.37363327699995352
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 15,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2438,
+    "ELEVASI": "2438 Mdpl",
+    "NAMA_OBJEK": "Gn. Tandikat"
+   },
+   "geometry": {
+    "x": 100.48308953700007,
+    "y": -0.4498985779999316
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 16,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2438,
+    "ELEVASI": "2438 Mdpl",
+    "NAMA_OBJEK": "Gn. Talang"
+   },
+   "geometry": {
+    "x": 100.86552959700003,
+    "y": -1.190474308999967
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 17,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 3805,
+    "ELEVASI": "3805 Mdpl",
+    "NAMA_OBJEK": "Gn. Kerinci"
+   },
+   "geometry": {
+    "x": 101.12058291200003,
+    "y": -1.6486200269999358
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 18,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Kunyit"
+   },
+   "geometry": {
+    "x": 101.68544294000009,
+    "y": -2.2085917679999625
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 19,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2508,
+    "ELEVASI": "2508 Mdpl",
+    "NAMA_OBJEK": "Gn. Sumbing"
+   },
+   "geometry": {
+    "x": 101.76813268300003,
+    "y": -2.3393306469999402
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 20,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Belirang Beriti"
+   },
+   "geometry": {
+    "x": 102.11439598100009,
+    "y": -3.0266891339999802
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 21,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Bukit Daun"
+   },
+   "geometry": {
+    "x": 102.22111029100006,
+    "y": -3.1525397249999401
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 22,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1952,
+    "ELEVASI": "1952 Mdpl",
+    "NAMA_OBJEK": "Gn. Kaba"
+   },
+   "geometry": {
+    "x": 102.84281951800006,
+    "y": -3.8675547339999525
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 23,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 3137,
+    "ELEVASI": "3137 Mdpl",
+    "NAMA_OBJEK": "Gn. Dempo"
+   },
+   "geometry": {
+    "x": 103.12008142300004,
+    "y": -4.0277661109999485
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 24,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Lumut Balai"
+   },
+   "geometry": {
+    "x": 103.59582726600007,
+    "y": -4.4153742799999804
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 25,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Marga Bayur"
+   },
+   "geometry": {
+    "x": 103.68340529600005,
+    "y": -4.5856420529999582
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 26,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Sikincau Belerang"
+   },
+   "geometry": {
+    "x": 104.23122484300006,
+    "y": -5.2784484709999333
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 27,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Hulubelu"
+   },
+   "geometry": {
+    "x": 104.32788275700005,
+    "y": -5.3508019959999729
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 28,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Pematang Bata"
+   },
+   "geometry": {
+    "x": 104.23639295200007,
+    "y": -5.3991309529999398
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 29,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 1281,
+    "ELEVASI": "1281 Mdpl",
+    "NAMA_OBJEK": "Gn. Rajabasa"
+   },
+   "geometry": {
+    "x": 105.52325207400008,
+    "y": -5.6812811459999466
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 30,
+    "ID": 0,
+    "TIPE": "Bawah Laut Tipe A",
+    "KETINGGIAN": 813,
+    "ELEVASI": "813 Mdpl",
+    "NAMA_OBJEK": "Gn. Anak Krakatau"
+   },
+   "geometry": {
+    "x": 105.41988989600009,
+    "y": -6.141522661999943
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 31,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Pulosari"
+   },
+   "geometry": {
+    "x": 105.90206018100008,
+    "y": -6.5154424809999796
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 32,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Karang"
+   },
+   "geometry": {
+    "x": 106.00388620500007,
+    "y": -6.4655773689999592
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 33,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Kiaraberes Gagak"
+   },
+   "geometry": {
+    "x": 106.54807379700009,
+    "y": -6.8650579119999406
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 34,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Perbakti"
+   },
+   "geometry": {
+    "x": 106.65143597600007,
+    "y": -6.8048565809999673
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 35,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2211,
+    "ELEVASI": "2211 Mdpl",
+    "NAMA_OBJEK": "Gn. Salak"
+   },
+   "geometry": {
+    "x": 106.72714163300009,
+    "y": -6.6580537329999743
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 36,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2211,
+    "ELEVASI": "2211 Mdpl",
+    "NAMA_OBJEK": "Gn. Gede"
+   },
+   "geometry": {
+    "x": 106.95635440300003,
+    "y": -6.8126087449999773
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 37,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 2432,
+    "ELEVASI": "2432 Mdpl",
+    "NAMA_OBJEK": "Gn. Patuha"
+   },
+   "geometry": {
+    "x": 107.40933201100006,
+    "y": -7.2084573339999451
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 38,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Wayang Windu"
+   },
+   "geometry": {
+    "x": 107.61633619000008,
+    "y": -7.3324919479999267
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 39,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2084,
+    "ELEVASI": "2084 Mdpl",
+    "NAMA_OBJEK": "Gn. Tangkubanparahu"
+   },
+   "geometry": {
+    "x": 107.57499131900005,
+    "y": -6.769168074999925
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 40,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2249,
+    "ELEVASI": "2249 Mdpl",
+    "NAMA_OBJEK": "Gn. Guntur"
+   },
+   "geometry": {
+    "x": 107.74037080400007,
+    "y": -7.1567762439999569
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 41,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Kawah Kamojang"
+   },
+   "geometry": {
+    "x": 107.71453026000006,
+    "y": -7.2549703139999338
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 42,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Kawah Manuk"
+   },
+   "geometry": {
+    "x": 107.73003458600004,
+    "y": -7.3376600569999368
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 43,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2665,
+    "ELEVASI": "2665 Mdpl",
+    "NAMA_OBJEK": "Gn. Papandayan"
+   },
+   "geometry": {
+    "x": 107.74037080400007,
+    "y": -7.4668627799999285
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 44,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Kawah Karaha"
+   },
+   "geometry": {
+    "x": 108.07448190800005,
+    "y": -7.1312155209999446
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 45,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Talagabodas"
+   },
+   "geometry": {
+    "x": 108.05199349500003,
+    "y": -7.2139052639999477
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 46,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2168,
+    "ELEVASI": "2168 Mdpl",
+    "NAMA_OBJEK": "Gn. Galunggung"
+   },
+   "geometry": {
+    "x": 108.05380947200007,
+    "y": -7.3139153109999597
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 47,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": " "
+   },
+   "geometry": {
+    "x": 108.35537576700006,
+    "y": -7.5340481959999579
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 48,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 3078,
+    "ELEVASI": "3078 Mdpl",
+    "NAMA_OBJEK": "Gn. Ceremai"
+   },
+   "geometry": {
+    "x": 108.39155252900008,
+    "y": -6.9242113429999677
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 49,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 3432,
+    "ELEVASI": "3432 Mdpl",
+    "NAMA_OBJEK": "Gn. Slamet"
+   },
+   "geometry": {
+    "x": 109.20811374000004,
+    "y": -7.2653065319999541
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 50,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2565,
+    "ELEVASI": "2565 Mdpl",
+    "NAMA_OBJEK": "Gn. Dieng"
+   },
+   "geometry": {
+    "x": 109.86446357300008,
+    "y": -7.2601384229999439
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 51,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Butak Patarangan"
+   },
+   "geometry": {
+    "x": 109.92648088000004,
+    "y": -7.2187935519999655
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 52,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 3371,
+    "ELEVASI": "3371 Mdpl",
+    "NAMA_OBJEK": "Gn. Sumbing"
+   },
+   "geometry": {
+    "x": 109.99366629700006,
+    "y": -7.3324919479999267
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 53,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 3150,
+    "ELEVASI": "3150 Mdpl",
+    "NAMA_OBJEK": "Gn. Sundoro"
+   },
+   "geometry": {
+    "x": 110.08152414800009,
+    "y": -7.3841730369999254
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 54,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 2050,
+    "ELEVASI": "2050 Mdpl",
+    "NAMA_OBJEK": "Gn. Ungaran"
+   },
+   "geometry": {
+    "x": 110.31408905000006,
+    "y": -7.203289224999935
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 55,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2968,
+    "ELEVASI": "2968 Mdpl",
+    "NAMA_OBJEK": "Gn. Merapi"
+   },
+   "geometry": {
+    "x": 110.42778744600008,
+    "y": -7.5908973939999669
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 56,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 3145,
+    "ELEVASI": "3145 Mdpl",
+    "NAMA_OBJEK": "Gn. Merbabu"
+   },
+   "geometry": {
+    "x": 110.43812366400005,
+    "y": -7.4875352159999693
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 57,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 3265,
+    "ELEVASI": "3265 Mdpl",
+    "NAMA_OBJEK": "Gn. Lawu"
+   },
+   "geometry": {
+    "x": 111.19266756800005,
+    "y": -7.67358713699997
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 58,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Wilis"
+   },
+   "geometry": {
+    "x": 111.77149576800008,
+    "y": -7.8544709499999499
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 59,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1731,
+    "ELEVASI": "1731 Mdpl",
+    "NAMA_OBJEK": "Gn. Kelud"
+   },
+   "geometry": {
+    "x": 112.30897909600003,
+    "y": -7.9630012369999577
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 60,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 3371,
+    "ELEVASI": "3371 Mdpl",
+    "NAMA_OBJEK": "Gn. Arjuna"
+   },
+   "geometry": {
+    "x": 112.57255265100002,
+    "y": -7.776949315999957
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 61,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 3676,
+    "ELEVASI": "3676 Mdpl",
+    "NAMA_OBJEK": "Gn. Semeru"
+   },
+   "geometry": {
+    "x": 112.92398405800009,
+    "y": -8.1025401779999697
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 62,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2329,
+    "ELEVASI": "2329 Mdpl",
+    "NAMA_OBJEK": "Gn. Bromo"
+   },
+   "geometry": {
+    "x": 112.9291521670001,
+    "y": -7.9681693459999678
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 63,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1671,
+    "ELEVASI": "1671 Mdpl",
+    "NAMA_OBJEK": "Gn. Lamongan"
+   },
+   "geometry": {
+    "x": 113.50281225800006,
+    "y": -8.0508590889999709
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 64,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 3072,
+    "ELEVASI": "3072 Mdpl",
+    "NAMA_OBJEK": "Gn. Argopuro"
+   },
+   "geometry": {
+    "x": 113.59583821900003,
+    "y": -7.9888417819999518
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 65,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 3332,
+    "ELEVASI": "3332 Mdpl",
+    "NAMA_OBJEK": "Gn. Raung"
+   },
+   "geometry": {
+    "x": 114.07130424000002,
+    "y": -8.1180445049999435
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 66,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2386,
+    "ELEVASI": "2386 Mdpl",
+    "NAMA_OBJEK": "Gn. Ijen"
+   },
+   "geometry": {
+    "x": 114.2160112900001,
+    "y": -8.0922039599999493
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 67,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1717,
+    "ELEVASI": "1717 Mdpl",
+    "NAMA_OBJEK": "Gn. Batur"
+   },
+   "geometry": {
+    "x": 115.35299525400001,
+    "y": -8.2369110099999716
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 68,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 3014,
+    "ELEVASI": "3014 Mdpl",
+    "NAMA_OBJEK": "Gn. Agung"
+   },
+   "geometry": {
+    "x": 115.5028704130001,
+    "y": -8.3712818419999735
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 69,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 3726,
+    "ELEVASI": "3726 Mdpl",
+    "NAMA_OBJEK": "Gn. Rinjani"
+   },
+   "geometry": {
+    "x": 116.47447489100011,
+    "y": -8.4281310409999719
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 70,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2851,
+    "ELEVASI": "2851 Mdpl",
+    "NAMA_OBJEK": "Gn. Tambora"
+   },
+   "geometry": {
+    "x": 117.99906702500004,
+    "y": -8.2627515549999657
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 71,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1949,
+    "ELEVASI": "1949 Mdpl",
+    "NAMA_OBJEK": "Gn. Sangeang Api"
+   },
+   "geometry": {
+    "x": 119.05336124600001,
+    "y": -8.221406682999941
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 72,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Waesano"
+   },
+   "geometry": {
+    "x": 119.93710787300006,
+    "y": -8.7795624479999788
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 73,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Pocoleok"
+   },
+   "geometry": {
+    "x": 120.28337117100011,
+    "y": -8.7950667739999631
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 74,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2247,
+    "ELEVASI": "2247 Mdpl",
+    "NAMA_OBJEK": "Gn. Anak Ranakah"
+   },
+   "geometry": {
+    "x": 120.2351139540001,
+    "y": -8.5863720759999751
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 75,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1559,
+    "ELEVASI": "1559 Mdpl",
+    "NAMA_OBJEK": "Gn. Inielika"
+   },
+   "geometry": {
+    "x": 120.92764055000009,
+    "y": -8.7569196699999452
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 76,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2230,
+    "ELEVASI": "2230 Mdpl",
+    "NAMA_OBJEK": "Gn. Inierie"
+   },
+   "geometry": {
+    "x": 120.99999407500002,
+    "y": -8.7362472349999507
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 77,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 2123,
+    "ELEVASI": "2123 Mdpl",
+    "NAMA_OBJEK": "Gn. Ebulobo"
+   },
+   "geometry": {
+    "x": 121.04133894600011,
+    "y": -8.5915401849999284
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 78,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 875,
+    "ELEVASI": "875 Mdpl",
+    "NAMA_OBJEK": "Gn. Rokatenda"
+   },
+   "geometry": {
+    "x": 121.73386554300009,
+    "y": -8.343470955999976
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 79,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1117,
+    "ELEVASI": "1117 Mdpl",
+    "NAMA_OBJEK": "Gn. Lereboleng"
+   },
+   "geometry": {
+    "x": 122.82950463500003,
+    "y": -8.1625871439999287
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 80,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Riang Kotang"
+   },
+   "geometry": {
+    "x": 122.93286681400002,
+    "y": -8.1160741629999507
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 81,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 637,
+    "ELEVASI": "637 Mdpl",
+    "NAMA_OBJEK": "Gn. Iya"
+   },
+   "geometry": {
+    "x": 121.67901898700006,
+    "y": -8.8809865849999596
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 82,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Ndetunapi"
+   },
+   "geometry": {
+    "x": 121.77411219100009,
+    "y": -8.777624406999962
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 83,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Sukoria"
+   },
+   "geometry": {
+    "x": 121.86093642100002,
+    "y": -8.8272382519999724
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 84,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1384,
+    "ELEVASI": "1384 Mdpl",
+    "NAMA_OBJEK": "Gn. Kelimutu"
+   },
+   "geometry": {
+    "x": 121.82811892900008,
+    "y": -8.6971311099999298
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 85,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1703,
+    "ELEVASI": "1703 Mdpl",
+    "NAMA_OBJEK": "Gn. Egon"
+   },
+   "geometry": {
+    "x": 122.39168690100007,
+    "y": -8.7091416359999698
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 86,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1584,
+    "ELEVASI": "1584 Mdpl",
+    "NAMA_OBJEK": "Gn. Lewotobi Laki-Laki"
+   },
+   "geometry": {
+    "x": 122.67583418200002,
+    "y": -8.5745455549999292
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 87,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1703,
+    "ELEVASI": "1703 Mdpl",
+    "NAMA_OBJEK": "Gn. Lewotobi Perempuan"
+   },
+   "geometry": {
+    "x": 122.7954751420001,
+    "y": -8.5446353149999368
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 88,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 470,
+    "ELEVASI": "470 Mdpl",
+    "NAMA_OBJEK": "Gn. Batutara"
+   },
+   "geometry": {
+    "x": 123.63296186600007,
+    "y": -7.7968793119999305
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 89,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1659,
+    "ELEVASI": "1659 Mdpl",
+    "NAMA_OBJEK": "Gn. Ili Boleng"
+   },
+   "geometry": {
+    "x": 123.18430826400004,
+    "y": -8.3352636339999435
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 90,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1436,
+    "ELEVASI": "1436 Mdpl",
+    "NAMA_OBJEK": "Gn. Ili Lewotolo"
+   },
+   "geometry": {
+    "x": 123.49836578600002,
+    "y": -8.2754431539999587
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 91,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1486,
+    "ELEVASI": "1486 Mdpl",
+    "NAMA_OBJEK": "Gn. Ili Werung"
+   },
+   "geometry": {
+    "x": 123.57314138600009,
+    "y": -8.5072475149999605
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 92,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Ili Labalekan"
+   },
+   "geometry": {
+    "x": 123.69278234600006,
+    "y": -8.3427411939999274
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 93,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 862,
+    "ELEVASI": "862 Mdpl",
+    "NAMA_OBJEK": "Gn. Sirung"
+   },
+   "geometry": {
+    "x": 124.13545390000002,
+    "y": -8.4870581029999812
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 94,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 282,
+    "ELEVASI": "282 Mdpl",
+    "NAMA_OBJEK": "Gn. Gunungapi"
+   },
+   "geometry": {
+    "x": 126.68125723900005,
+    "y": -6.7130428599999732
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 95,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 868,
+    "ELEVASI": "868 Mdpl",
+    "NAMA_OBJEK": "Gn. Wurlali"
+   },
+   "geometry": {
+    "x": 128.63807913900007,
+    "y": -7.1716493829999308
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 96,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 655,
+    "ELEVASI": "655 Mdpl",
+    "NAMA_OBJEK": "Gn. Serawerna"
+   },
+   "geometry": {
+    "x": 129.16392780400008,
+    "y": -7.0024107319999302
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 97,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 655,
+    "ELEVASI": "655 Mdpl",
+    "NAMA_OBJEK": "Gn. Serawerna"
+   },
+   "geometry": {
+    "x": 129.55680324400009,
+    "y": -6.7727297059999501
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 98,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 641,
+    "ELEVASI": "641 Mdpl",
+    "NAMA_OBJEK": "Gn. Legalata"
+   },
+   "geometry": {
+    "x": 130.04034224600002,
+    "y": -6.3194118909999588
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 99,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 375,
+    "ELEVASI": "375 Mdpl",
+    "NAMA_OBJEK": "Gn. Manuk"
+   },
+   "geometry": {
+    "x": 130.31837717300004,
+    "y": -5.6061918629999354
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 100,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 641,
+    "ELEVASI": "641 Mdpl",
+    "NAMA_OBJEK": "Gn. Banda Api"
+   },
+   "geometry": {
+    "x": 130.01465423700006,
+    "y": -4.522762284999942
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 101,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 585,
+    "ELEVASI": "585 Mdpl",
+    "NAMA_OBJEK": "Gn. Kie Best"
+   },
+   "geometry": {
+    "x": 127.44025853400001,
+    "y": 0.3204935400000295
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 102,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 715,
+    "ELEVASI": "715 Mdpl",
+    "NAMA_OBJEK": "Gn. Gamalama"
+   },
+   "geometry": {
+    "x": 127.36430508700005,
+    "y": 0.81419094900002165
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 103,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Tadoko"
+   },
+   "geometry": {
+    "x": 127.49247653000009,
+    "y": 1.2366820010000197
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 104,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1635,
+    "ELEVASI": "1635 Mdpl",
+    "NAMA_OBJEK": "Gn. Gamkonora"
+   },
+   "geometry": {
+    "x": 127.64438342500011,
+    "y": 1.3506121720000692
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 105,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1340,
+    "ELEVASI": "1340 Mdpl",
+    "NAMA_OBJEK": "Gn. Ibu"
+   },
+   "geometry": {
+    "x": 127.78204904800009,
+    "y": 1.545242882000025
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 106,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Malupang Werirang"
+   },
+   "geometry": {
+    "x": 127.88173794800002,
+    "y": 1.7541148630000407
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 107,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1087,
+    "ELEVASI": "1087 Mdpl",
+    "NAMA_OBJEK": "Gn. Dukono"
+   },
+   "geometry": {
+    "x": 127.78204904800009,
+    "y": 1.8300683100000583
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 108,
+    "ID": 0,
+    "TIPE": "Bawah Laut Tipe A",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Nieuwerkerk"
+   },
+   "geometry": {
+    "x": 125.17080554800009,
+    "y": -5.1889758269999788
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 109,
+    "ID": 0,
+    "TIPE": "Bawah Laut Tipe A",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Emperor of Cina"
+   },
+   "geometry": {
+    "x": 124.80354407100003,
+    "y": -5.3682344049999529
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 110,
+    "ID": 0,
+    "TIPE": "Bawah Laut Tipe A",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Sangir"
+   },
+   "geometry": {
+    "x": 125.17765913300002,
+    "y": 3.9106241330000557
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 111,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1320,
+    "ELEVASI": "1320 Mdpl",
+    "NAMA_OBJEK": "Gn. Awu"
+   },
+   "geometry": {
+    "x": 125.49764048800012,
+    "y": 3.7166960390000554
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 112,
+    "ID": 0,
+    "TIPE": "Bawah Laut Tipe A",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Banua Wuhu"
+   },
+   "geometry": {
+    "x": 125.35542655200004,
+    "y": 3.2092508600000542
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 113,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1984,
+    "ELEVASI": "1984 Mdpl",
+    "NAMA_OBJEK": "Gn. Karangetang"
+   },
+   "geometry": {
+    "x": 125.23260542600008,
+    "y": 2.7955375930000628
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 114,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 714,
+    "ELEVASI": "714 Mdpl",
+    "NAMA_OBJEK": "Gn. Ruang"
+   },
+   "geometry": {
+    "x": 125.28755171900002,
+    "y": 2.3721279220000611
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 115,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1149,
+    "ELEVASI": "1149 Mdpl",
+    "NAMA_OBJEK": "Gn. Tangkoko"
+   },
+   "geometry": {
+    "x": 125.15361204900012,
+    "y": 1.527053932000058
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 116,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 1990,
+    "ELEVASI": "1990 Mdpl",
+    "NAMA_OBJEK": "Gn. Klabat"
+   },
+   "geometry": {
+    "x": 125.04695159800008,
+    "y": 1.4947325830000295
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 117,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Tompusu"
+   },
+   "geometry": {
+    "x": 124.95806788800007,
+    "y": 1.1828315660000612
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 118,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 486,
+    "ELEVASI": "486 Mdpl",
+    "NAMA_OBJEK": "Gn. Colo"
+   },
+   "geometry": {
+    "x": 121.61408890700011,
+    "y": -0.18923233699996445
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 119,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1689,
+    "ELEVASI": "1689 Mdpl",
+    "NAMA_OBJEK": "Gn. Ambang"
+   },
+   "geometry": {
+    "x": 124.35239984900011,
+    "y": 0.59332532600006971
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 120,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Tempang"
+   },
+   "geometry": {
+    "x": 124.88199654700009,
+    "y": 1.1337757840000222
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 121,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Batukolok"
+   },
+   "geometry": {
+    "x": 124.90544170900012,
+    "y": 1.0681293300000334
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 122,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Sempu"
+   },
+   "geometry": {
+    "x": 124.84448428700011,
+    "y": 1.2088003030000323
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 123,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1848,
+    "ELEVASI": "1848 Mdpl",
+    "NAMA_OBJEK": "Gn. Soputan"
+   },
+   "geometry": {
+    "x": 124.75539267200008,
+    "y": 1.0118609420000553
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 124,
+    "ID": 0,
+    "TIPE": "Tipe C",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Sarongsong"
+   },
+   "geometry": {
+    "x": 124.75539267200008,
+    "y": 1.1665990110000735
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 125,
+    "ID": 0,
+    "TIPE": "Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Lahendong"
+   },
+   "geometry": {
+    "x": 124.83041719000005,
+    "y": 1.0587512660000584
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 126,
+    "ID": 0,
+    "TIPE": "Tipe A",
+    "KETINGGIAN": 1580,
+    "ELEVASI": "1580 Mdpl",
+    "NAMA_OBJEK": "Gn. Lokon"
+   },
+   "geometry": {
+    "x": 124.77768083900003,
+    "y": 1.3600633190000622
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 127,
+    "ID": 0,
+    "TIPE": "Bawah Laut Tipe B",
+    "KETINGGIAN": 0,
+    "ELEVASI": " ",
+    "NAMA_OBJEK": "Gn. Yersei"
+   },
+   "geometry": {
+    "x": 124.21428188400012,
+    "y": -7.1879645049999681
+   }
+  }
+ ]
+}

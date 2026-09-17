@@ -1,0 +1,30 @@
+{
+  "volcanoId":"262000",
+  "retrievedAt":"2026-09-12",
+  "sources":[
+    {"id":"esdm-0906","provider":"ESDM / PVMBG","publishedDate":"2026-09-06","url":"https://esdm.go.id/en/media-center/news-archives/aktivitas-anak-krakatau-terus-dipantau-pvmbg-pastikan-status-siaga-tetap-berlaku-usai-erupsi-menerus-25-jam","localPath":"data/raw/reports/esdm-2026-09-06.html"},
+    {"id":"bmkg-0907","provider":"BMKG","publishedDate":"2026-09-07","url":"https://www.bmkg.go.id/berita/utama/imbas-sebaran-abu-vulknaik-anak-krakatau-8-bandara-ditutup-sementara-bmkg-minta-waspada-dan-tenang","localPath":"data/raw/reports/bmkg-2026-09-07.html"},
+    {"id":"bmkg-0908","provider":"BMKG","publishedDate":"2026-09-08","url":"https://www.bmkg.go.id/berita/utama/bmkg-ungkap-abu-vulkanik-negatif-8-bandara-beroperasi-kembali-dan-pemerintah-terus-laksanakan-omc","localPath":"data/raw/reports/bmkg-2026-09-08.html"}
+  ],
+  "events":[
+    {"id":"continuous-start","time":"2026-09-04T16:07:00Z","precision":"minute","sourceTime":"4 September 2026, 23:07 WIB","title":"Continuous eruptive episode begins","kind":"eruption","sourceId":"esdm-0906","notes":"Instrumental start reported retrospectively by PVMBG."},
+    {"id":"continuous-end","time":"2026-09-05T17:04:00Z","precision":"minute","sourceTime":"6 September 2026, 00:04 WIB","title":"Continuous episode ends","kind":"eruption","sourceId":"esdm-0906","notes":"End of this continuous episode, not the end of all volcanic activity."},
+    {"id":"strombolian-followup","time":"2026-09-05T20:53:00Z","precision":"minute","sourceTime":"6 September 2026, 03:53 WIB","title":"Subsequent Strombolian eruption","kind":"eruption","sourceId":"esdm-0906","notes":"Reported duration approximately 30 seconds."},
+    {"id":"positive-tests","time":"2026-09-07T00:00:00Z","precision":"minute","sourceTime":"7 September 2026, 07:00 WIB","title":"Positive airport paper tests reported","kind":"ground-observation","sourceId":"bmkg-0907","notes":"Qualitative indication at several airports; not a concentration measurement."},
+    {"id":"negative-tests","time":"2026-09-07T23:00:00Z","precision":"minute","sourceTime":"8 September 2026, 06:00 WIB","title":"Negative airport paper tests reported","kind":"ground-observation","sourceId":"bmkg-0908","notes":"Report-level statement; exact per-airport test times are not supplied."},
+    {"id":"september8-eruption","time":"2026-09-08T00:49:00Z","precision":"minute","sourceTime":"8 September 2026, 07:49 WIB","title":"Another short eruption reported","kind":"eruption","sourceId":"bmkg-0908","notes":"BMKG cites PVMBG; reported duration 19 seconds."}
+  ],
+  "closureReport":{"sourceId":"bmkg-0907","closedBy":"2026-09-07T01:30:00Z","actualStart":null,"plannedUntil":"2026-09-07T11:00:00Z","notes":"NOTAMs issued by 08:30 WIB reportedly instructed closure until 18:00 WIB. This is a reported scheduled window, not an exact measured closure duration."},
+  "airports":[
+    {"id":"soekarno-hatta","name":"Soekarno–Hatta","closureListed":true,"reopenedAt":"2026-09-07T17:30:00Z","reopeningSourceId":"bmkg-0908","notes":"Reopening explicitly given in WIB."},
+    {"id":"halim","name":"Halim Perdanakusuma","closureListed":true,"reopenedAt":"2026-09-07T17:40:00Z","reopeningSourceId":"bmkg-0908","notes":"Reopening explicitly given in WIB."},
+    {"id":"husein","name":"Husein Sastranegara","closureListed":true,"reopenedAt":"2026-09-07T17:42:00Z","reopeningSourceId":"bmkg-0908","notes":"Reopening explicitly given in WIB."},
+    {"id":"budiarto","name":"Budiarto Curug","closureListed":true,"reopenedAt":"2026-09-07T18:25:00Z","reopeningSourceId":"bmkg-0908","notes":"WIB inherited from the surrounding reopening paragraph."},
+    {"id":"pondok-cabe","name":"Pondok Cabe","closureListed":true,"reopenedAt":"2026-09-07T18:28:00Z","reopeningSourceId":"bmkg-0908","notes":"WIB inherited from the surrounding reopening paragraph."},
+    {"id":"muhammad-taufiq-kiemas","name":"Muhammad Taufiq Kiemas","closureListed":true,"reopenedAt":"2026-09-08T02:31:00Z","reopeningSourceId":"bmkg-0908","notes":"Name appears as Taufiq on 7 September and Taufik on 8 September; province attribution also differs. Mapped by name, location unresolved. WIB inferred from paragraph context."},
+    {"id":"radin-inten","name":"Radin Inten II","closureListed":true,"reopenedAt":"2026-09-08T02:45:00Z","reopeningSourceId":"bmkg-0908","notes":"WIB inferred from paragraph context."},
+    {"id":"atungbusu","name":"Atungbusu (as reported)","closureListed":true,"reopenedAt":null,"reopeningSourceId":null,"notes":"Listed on 7 September, absent from 8 September reopening list. Identity and reopening unresolved."},
+    {"id":"salakanagara","name":"Salakanagara Tanjung Lesung","closureListed":false,"reopenedAt":"2026-09-08T02:50:00Z","reopeningSourceId":"bmkg-0908","notes":"Listed as reopened on 8 September, absent from the 7 September closure list. Closure onset unknown. WIB inferred from paragraph context."}
+  ],
+  "limitations":["Press-report evidence, not original NOTAM products.","The two reports each name eight airports, but their lists differ; nine distinct names are retained.","No exact closure start is inferred. The scheduled expiry is not treated as an actual reopening.","Report publication dates lack precise issue times. This is a retrospective chronology, not an as-known-at-the-time display."]
+}

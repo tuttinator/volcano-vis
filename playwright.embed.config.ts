@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'./tests/embed',testMatch:'*.spec.ts',workers:1,use:{baseURL:'http://127.0.0.1:4181',viewport:{width:1440,height:1000},launchOptions:{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH}},webServer:{command:'python3 tests/embed/server.py',url:'http://127.0.0.1:4181/article.html',reuseExistingServer:false}});

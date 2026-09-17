@@ -1,0 +1,14 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+.DS_Store
+
+.venv/
+__pycache__/
+
+dist-blog/
+
+# Downloadable satellite source bands; retain provenance in sources.json.
+data/raw/ahi-ash/*.DAT.bz2
+data/raw/ahi-ash/*.part
