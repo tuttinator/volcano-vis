@@ -9,6 +9,7 @@
     "test": "node --import tsx --test tests/*.test.ts",
     "preview": "vite preview --host 127.0.0.1",
     "data:build": "python3 pipelines/build_data.py && node --import tsx --test tests/contracts.test.ts",
+    "site:export": "python3 pipelines/export_site.py",
     "build:embed": "tsc --noEmit && vite build --base=/experiments/volcanoes/ --outDir=dist-blog",
     "test:embed": "playwright test --config=playwright.embed.config.ts"
   },

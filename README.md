@@ -37,3 +37,7 @@ An independently selectable **Ash RGB archive** is available in replay; the full
 Blog-subpath integration: `npm run build:embed` then `npm run test:embed`. The strict iframe fixture verifies all five presentations under `/experiments/volcanoes/` without a development-server fallback.
 
 A [working article draft](docs/blog-draft.md) connects the visual essay, paired replay, historical episodes and official classification directory with proposed deployment links.
+
+## Native site version
+
+`npm run site:export` writes a compact dataset (WebP frames, advisories, chronology, airports, comparison and directory JSON; about 22 MB) into `../caleb-tutty.com/static/data/volcanic-ash/`. The draft post `indonesia-volcanic-ash` in that repository ports the event replay, six-volcano comparison and national directory to native Svelte components in `src/lib/vis/volcanic-ash/`, applying the same image-tolerance, 60-minute initial-position and exact-forecast-target rules. Requires `cwebp`. The post stays `draft: true` until the advisory reuse question in [data reuse review](docs/data-reuse-review.md) is settled.
