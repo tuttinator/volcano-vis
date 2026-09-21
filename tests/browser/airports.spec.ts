@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 test('airport locations preserve report uncertainty as the clock changes',async({page})=>{
  await page.goto('/?view=replay');
- await expect(page.locator('.airport-marker')).toHaveCount(8);
+ await expect(page.locator('.airport-marker')).toHaveCount(9);
  await page.getByLabel('Inspect airport location').selectOption('soekarno-hatta');
  await expect(page.locator('.airport-map-detail')).toContainText('not established');
  await page.getByLabel('Event time').fill(String(Date.parse('2026-09-07T02:00:00Z')));

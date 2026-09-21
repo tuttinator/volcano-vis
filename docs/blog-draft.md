@@ -1,5 +1,8 @@
 # Reading Indonesia’s volcanic skies
 
+> Historical draft. The current article lives in the website repository; see
+> [article alignment](article-alignment.md) for its three native figures.
+
 *Working article draft for caleb-tutty.com. The links below use the proposed deployment path; they are not published URLs. Data snapshot: 12 September 2026.*
 
 A satellite image gives us a view of a volcanic cloud. An advisory gives us an interpretation tied to a time. Reading them together means keeping track of what each source actually says.

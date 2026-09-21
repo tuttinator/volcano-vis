@@ -13,7 +13,7 @@ test('all blog embeds load assets from the mounted subpath and retain working co
  await page.getByLabel('Presentation').selectOption('compare');await expect(app.locator('.volcano-card')).toHaveCount(6);
  await page.getByLabel('Presentation').selectOption('replay');await expect(app.getByLabel('Event time')).toBeVisible();await app.getByLabel('Satellite product',{exact:true}).selectOption('ash');await app.getByRole('button',{name:'Jump to first Ash RGB scan'}).click();await expect(app.locator('.replay-frame-status')).toContainText('Source scan');
  await app.getByLabel('Show comparison pane').check();await expect(app.locator('.replay-panes .real-map')).toHaveCount(2);await expect(app.locator('.replay-panes .real-map').first()).toHaveAttribute('data-raster-url',/ash-rgb/);await expect(app.locator('.replay-panes .real-map').nth(1)).toHaveAttribute('data-raster-url',/himawari/);
- await expect(app.locator('.airport-marker')).toHaveCount(8);
+ await expect(app.locator('.airport-marker')).toHaveCount(9);
  await app.getByLabel('Inspect airport location').selectOption('halim');
  await expect(app.getByRole('link',{name:'Official location source'})).toHaveAttribute('href','https://hubud.kemenhub.go.id/bandara/122');
  const exportLink=app.getByRole('link',{name:'Inspect event advisory GeoJSON'});

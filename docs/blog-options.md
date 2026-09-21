@@ -1,5 +1,8 @@
 # Blog presentation prototypes
 
+> Historical design notes. The site now has native Svelte figures; see
+> [article alignment](article-alignment.md). Iframes remain an optional standalone deployment route.
+
 Designed after inspecting the public caleb-tutty.com homepage: editorial serif typography, restrained green/cream tones, and compact monospaced annotations. The existing site appears to be Svelte-based; this prototype is a standalone React build and requires no change to the site's framework.
 
 1. **Advisory explorer** (`?view=explorer`): edition playback, volcano selector, altitude filtering, initial versus +6/+12/+18 hour positions, NASA daily imagery toggle, exact report times and uncertainty notes. An interactive east–west altitude cross-section intersects the selected polygons at a chosen latitude, marked by a dashed line on the map. Its boxes show reported pressure-altitude bounds, with a schematic SFC baseline. An optional 3D view uses MapLibre extrusion of the same source lower/upper bounds; `dimension=3d` persists in share links. The caption explains that flight levels are pressure-altitude bands, SFC is a flat schematic baseline, and shapes are not measured ash volumes. Best for readers who want to inspect the evidence themselves.

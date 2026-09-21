@@ -4,6 +4,12 @@ The pipeline started with three actual Himawari-9 scans at 04:00, 04:10 and 04:2
 
 ## Reproduce
 
+The commands below bootstrap the original three-frame sample in a checkout
+without a full archive manifest. On a normal clone, use the full-window builder
+below; the sample builder deliberately refuses to overwrite the full archive.
+See [independent rerendering](reproducing.md#4-rebuild-ash-rgb-optional-several-gb)
+to recompute committed outputs rather than resume them.
+
 ```sh
 python3 -m venv .venv
 .venv/bin/pip install -r pipelines/requirements-ash.lock
@@ -39,7 +45,7 @@ The full build retains several gigabytes of compressed source bands. The crop-be
 
 ## Restore raw inputs for integrity tests
 
-Git includes the rendered images and provenance manifests, but excludes the downloadable `data/raw/ahi-ash/*.DAT.bz2` source bands. On a fresh clone, restore these inputs before running `npm test` (about 6.3 GB of downloads). The regular archive builder reuses completed images and does not restore their missing raw inputs. This command downloads the exact URLs recorded in the manifest and verifies their checksums without changing the rendered archive:
+Git includes rendered images and provenance manifests, but excludes downloadable `data/raw/ahi-ash/*.DAT.bz2` source bands. The default `npm test` verifies committed outputs and input metadata without these bands. Restore them before running the separate `npm run test:raw` (about 6.3 GB of downloads). The archive builder reuses completed images and does not restore missing raw inputs. This command downloads the manifest URLs and verifies checksums without changing the rendered archive:
 
 ```sh
 python3 - <<'PY'
@@ -73,6 +79,6 @@ Raw data is served by the [NOAA public Himawari archive](https://registry.openda
 
 ## Coverage and checks
 
-`public/data/ash-rgb.json` lists each source input, the exact recipe, crop geometry, output checksum, pixel coverage and per-band temperature ranges. Tests verify every recorded raw input and output PNG, band membership, dates, dimensions and finite cropped coverage. A coverage partition test checks that images, source gaps and failures have unique clock slots, reconcile with processed totals, stay within event bounds and agree with the completion flag. Browser tests cover product switching, paired products/times, missing images and delayed or failed raster requests.
+`public/data/ash-rgb.json` lists each source input, recipe, crop geometry, output checksum, pixel coverage and per-band temperature ranges. Default tests verify output PNGs and input metadata, band membership, dates, dimensions and finite cropped coverage. `npm run test:raw` additionally verifies every raw band checksum. Coverage tests check that images, source gaps and failures have unique clock slots, reconcile with totals, stay within event bounds and agree with the completion flag. Browser tests cover switching, paired products/times, missing images and failed requests.
 
 The broader 4–8 September Ash RGB animation is processed: 579 frames, 10 source gaps and zero failures. Partial coverage is not treated as continuous coverage: the ordinary ±7-minute nearest-frame policy applies, and the image layer clears outside tolerance. The existing Band 13 imagery remains available independently.

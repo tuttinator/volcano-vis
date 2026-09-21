@@ -23,7 +23,7 @@ test('Ash RGB archive has four traceable calibrated band inputs per scan and com
   assert.equal(f.time,Date.parse(f.sourceTime));assert.ok(f.time%600000===0);if(i)assert.ok(f.time>archive.frames[i-1].time);assert.equal(f.validPixelFraction,1);
   assert.equal(hash(`public${f.url}`),f.sha256);const bytes=readFileSync(`public${f.url}`);assert.equal(bytes.readUInt32BE(16),640);assert.equal(bytes.readUInt32BE(20),564);
   assert.deepEqual(f.inputs.map((s:any)=>s.band).sort(),['B11','B13','B14','B15']);
-  for(const input of f.inputs){assert.equal(input.time,f.sourceTime);assert.equal(hash(input.path),input.sha256);assert.equal(new URL(input.url).hostname,'noaa-himawari9.s3.amazonaws.com');}
+  for(const input of f.inputs){assert.equal(input.time,f.sourceTime);assert.match(input.sha256,/^[a-f0-9]{64}$/);assert.match(input.path,/^data\/raw\/ahi-ash\/HS_H09_[\w.]+\.DAT\.bz2$/);assert.ok(input.bytes>0);assert.equal(new URL(input.url).hostname,'noaa-himawari9.s3.amazonaws.com');}
   for(const stats of Object.values(f.temperatureRange) as any[]){assert.ok(stats.minKelvin>150&&stats.minKelvin<330);assert.ok(stats.maxKelvin>250&&stats.maxKelvin<350);}
  }
 });

@@ -3,6 +3,11 @@ dist/
 playwright-report/
 test-results/
 .DS_Store
+.env
+.env.*
+!.env.example
+site-export/
+*.pyc
 
 .venv/
 __pycache__/

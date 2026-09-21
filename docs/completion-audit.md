@@ -1,5 +1,8 @@
 # Completion audit — 12 September 2026
 
+> Historical audit, not current publication status. See [article alignment](article-alignment.md)
+> for the reviewed site implementation. Unresolved reuse questions below remain open.
+
 This audit records the current prototype evidence and outstanding work. The full original plan is **not complete**; passing prototype tests does not close the scientific source gate.
 
 ## Current evidence

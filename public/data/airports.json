@@ -1,9 +1,7 @@
 {
   "provider": "DGCA / Kementerian Perhubungan",
-  "retrievedAt": "2026-09-12",
-  "unresolved": [
-    "atungbusu"
-  ],
+  "retrievedAt": "2026-09-21",
+  "unresolved": [],
   "airports": [
     {
       "id": "soekarno-hatta",
@@ -16,7 +14,8 @@
       "sourceUrl": "https://hubud.kemenhub.go.id/bandara/222",
       "sourcePath": "data/raw/airports/soekarno-hatta.html",
       "sha256": "6b458798ed5b3a0dfd53a6c52e91f005267321ca4177f9ecc265ed638de5aa17",
-      "markerKind": "airport"
+      "markerKind": "airport",
+      "retrievedAt": "2026-09-12"
     },
     {
       "id": "halim",
@@ -29,7 +28,8 @@
       "sourceUrl": "https://hubud.kemenhub.go.id/bandara/122",
       "sourcePath": "data/raw/airports/halim.html",
       "sha256": "3096758988f6ab0b580083b6ee1837f4665c702676592ff1ca38a55f2be19e9d",
-      "markerKind": "airport"
+      "markerKind": "airport",
+      "retrievedAt": "2026-09-12"
     },
     {
       "id": "radin-inten",
@@ -42,7 +42,8 @@
       "sourceUrl": "https://hubud.kemenhub.go.id/bandara/258",
       "sourcePath": "data/raw/airports/radin-inten.html",
       "sha256": "b16bfe4d14844a66e041a9f7ac2fa52d48d4b2fa01c118a6f6bc7e6145d01f16",
-      "markerKind": "airport"
+      "markerKind": "airport",
+      "retrievedAt": "2026-09-12"
     },
     {
       "id": "budiarto",
@@ -55,7 +56,8 @@
       "sourceUrl": "https://hubud.kemenhub.go.id/bandara/102",
       "sourcePath": "data/raw/airports/budiarto.html",
       "sha256": "86437b93cbb88f4ce1f1325edb8f7f6737ca1d8520169fa47d9620cedfa4da0f",
-      "markerKind": "airport"
+      "markerKind": "airport",
+      "retrievedAt": "2026-09-12"
     },
     {
       "id": "pondok-cabe",
@@ -68,7 +70,8 @@
       "sourceUrl": "https://hubud.kemenhub.go.id/bandara/482",
       "sourcePath": "data/raw/airports/pondok-cabe.html",
       "sha256": "e3b39b082cc28161162fdcc253dabed01eaf1516d177a5a9e552e095c0cfded9",
-      "markerKind": "airport"
+      "markerKind": "airport",
+      "retrievedAt": "2026-09-12"
     },
     {
       "id": "husein",
@@ -81,7 +84,8 @@
       "sourceUrl": "https://hubud.kemenhub.go.id/bandara/242",
       "sourcePath": "data/raw/airports/husein.html",
       "sha256": "c0064f819747ed43b46d7cdd30ee76196677ca2d8e8c1ae514d8be7f64d3f349",
-      "markerKind": "airport"
+      "markerKind": "airport",
+      "retrievedAt": "2026-09-12"
     },
     {
       "id": "salakanagara",
@@ -94,7 +98,8 @@
       "sourceUrl": "https://hubud.kemenhub.go.id/bandara/304",
       "sourcePath": "data/raw/airports/salakanagara.html",
       "sha256": "e5014df370f9986e1d2d0bba457aa83df2a9e51d3fffbabecb3822f0b492e5d4",
-      "markerKind": "airport"
+      "markerKind": "airport",
+      "retrievedAt": "2026-09-12"
     },
     {
       "id": "muhammad-taufiq-kiemas",
@@ -107,7 +112,22 @@
       "sourceUrl": "https://hubud.kemenhub.go.id/bandara/273",
       "sourcePath": "data/raw/airports/muhammad-taufiq-kiemas.html",
       "sha256": "fe64626c2c3b8b31f0ec8d5ab580a469bf2537805a01437db44f3c8810a2400d",
-      "markerKind": "airport"
+      "markerKind": "airport",
+      "retrievedAt": "2026-09-12"
+    },
+    {
+      "id": "atungbusu",
+      "name": "Atung Bungsu",
+      "coordinates": [
+        103.37873666666665,
+        -4.024820555555555
+      ],
+      "sourceCoordinates": "04\u00b0 01' 29.3540\" LS 103\u00b0 22' 43.452\" BT",
+      "sourceUrl": "https://hubud.kemenhub.go.id/bandara/302",
+      "sourcePath": "data/raw/airports/atungbusu.html",
+      "sha256": "84da7b5baea89c200a90bb4986c7f2625f58b6b40fd4727ffa01dbe8aafe3e20",
+      "markerKind": "airport",
+      "retrievedAt": "2026-09-21"
     }
   ]
 }

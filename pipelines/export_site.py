@@ -11,11 +11,11 @@ Reads the built prototype assets in public/data and writes
   ir/*.webp         Himawari Band 13 frames (lossy WebP)
   ash/*.webp        locally derived Ash RGB frames (lossy WebP)
 
-No scientific value is altered: frames are re-encoded only, source gaps stay
-gaps, and every advisory revision is retained so the site applies the same
-selection rules as the prototype. Requires `cwebp` on PATH.
+Times, source gaps and advisory revisions are retained. Coordinates are rounded
+to four decimal places and browse images use lossy WebP: these exports are for
+display, not quantitative pixel analysis. Requires `cwebp` on PATH.
 
-Usage: python3 pipelines/export_site.py [--site ../caleb-tutty.com] [--skip-images]
+Usage: python3 pipelines/export_site.py [--output site-export | --site PATH] [--skip-images]
 """
 from __future__ import annotations
 
@@ -84,12 +84,21 @@ def slim_product(p: dict) -> dict:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--site", type=Path, default=ROOT.parent / "caleb-tutty.com")
-    parser.add_argument("--skip-images", action="store_true")
+    destination = parser.add_mutually_exclusive_group()
+    destination.add_argument("--site", type=Path, help="Write into a Svelte site checkout")
+    destination.add_argument("--output", type=Path, help="Standalone output directory (default: site-export/)")
+    parser.add_argument("--skip-images", action="store_true", help="Export metadata only; images must already exist for rendering")
     args = parser.parse_args()
-    out = args.site / "static" / "data" / "volcanic-ash"
-    if not (args.site / "svelte.config.js").exists():
-        raise SystemExit(f"{args.site} does not look like the site repository")
+    if args.site:
+        if not (args.site / "svelte.config.js").exists():
+            raise SystemExit(f"{args.site} does not look like the site repository")
+        out = args.site / "static" / "data" / "volcanic-ash"
+    else:
+        out = args.output or ROOT / "site-export"
+    if not args.skip_images and not shutil.which("cwebp"):
+        raise SystemExit("cwebp is required. Install WebP tools or use --skip-images for metadata only.")
+    if args.skip_images:
+        print("Metadata-only export: referenced WebP images and the legend are not copied.")
     for sub in ("ir", "ash"):
         (out / sub).mkdir(parents=True, exist_ok=True)
 

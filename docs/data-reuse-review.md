@@ -1,5 +1,9 @@
 # Data reuse review — 12 September 2026
 
+> Retained review: publication-status statements describe that review date.
+> The September 21 cleanup did not reverify provider terms or resolve the questions below.
+> Original code is now MIT licensed; see [data license scope](../DATA_LICENSE.md).
+
 This review records provider guidance and the evidence still needed for public republication. It does not assign one licence to the entire prototype. Source access, attribution and permission to redistribute are different questions.
 
 | Material used | Provider guidance reviewed | Publication treatment |
